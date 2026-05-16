@@ -1,0 +1,16 @@
+index,prediction,ground_truths,f1,exact_match
+0,multilingual NMT (MNMT) BIBREF19,BIBREF19 BIBREF20|multilingual NMT (MNMT) BIBREF19
+1,pivoting,pivoting pivoting$_{\rm m}$|firstly translates a source language into the pivot language which is later translated to the target language
+2,Europarl and MultiUN,Europarl MultiUN|Europarl BIBREF31 MultiUN BIBREF32
+3,French-English-Spanish (Fr-En-Es,"De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru|French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De) Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation"
+4,"Stanford NER, spaCy 2.0, and a recurrent model (Char-biLSTM+biLSTM+CRF).",Stanford NER spaCy 2.0  recurrent model with a CRF top layer|Stanford NER spaCy 2.0 recurrent model with a CRF top layer
+5,ilur.am,ilur.am|links between Wikipedia articles to generate sequences of named-entity annotated tokens
+6,unanswerable,no|no
+7,"politics, business, science, AskReddit,","politics, business, science, and AskReddit, and 1000 additional posts from the Reddit frontpage. |training data has posts from politics, business, science and other popular topics; the trained model is applied to millions of unannotated posts on all of Reddit"
+8,logistic regression models,"logistic regression models|logistic regression models based on unigram bag-of-words features (BOW), sentiment signals (SENT), the linguistic features from our earlier analyses (LING), and combinations of these features."
+9,unanswerable,"F1 scores of 85.99 on the DL-PS data,  75.15 on the EC-MT data and 71.53 on the EC-UQ data |F1 of 85.99 on the DL-PS dataset (dialog domain); 75.15 on EC-MT and 71.53 on EC-UQ (e-commerce domain)"
+10,unanswerable,"unanswerable|They did not use any platform, instead they hired undergraduate students to do the annotation."
+11,bilingual dictionary,unanswerable|CFILT-preorder system
+12,unanswerable,"5|Bengali, Gujarati, Marathi, Malayalam and Tamil are the primary source languages, and translation from these to Hindi constitute the child tasks."
+13,IITB English-Hindi parallel corpus and ILCI English-Hindi parallel corpus.,IITB English-Hindi parallel corpus BIBREF22 ILCI English-Hindi parallel corpus|IITB English-Hindi parallel corpus ILCI English-Hindi parallel corpus
+AVERAGE,,,0.5405602240896358,0.2857142857142857

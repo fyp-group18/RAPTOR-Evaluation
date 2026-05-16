@@ -1,0 +1,6 @@
+# Collapsed tree retrieval without table parent-child structure
+retrieval_mode: "collapsed"
+use_multimodal_embed: true
+use_table_parent_child: false
+use_retrieval_expansion: true
+description: "Collapsed tree retrieval without table parent-child linking — ablation to measure table structure contribution"

@@ -1,0 +1,7 @@
+benchmark: qasper
+retrieval_mode: "collapsed"
+build_raptor_tree: true
+use_table_parent_child: true
+use_retrieval_expansion: true
+use_multimodal_embed: false  # No image bytes available in QASPER dataset
+description: "QASPER with table parent-child chunking + retrieval expansion + RAPTOR tree"

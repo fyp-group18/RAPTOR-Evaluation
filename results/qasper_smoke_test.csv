@@ -1,0 +1,6 @@
+index,prediction,ground_truths,f1,exact_match
+0,multilingual NMT (MNMT) BIBREF19,BIBREF19 BIBREF20|multilingual NMT (MNMT) BIBREF19
+1,pivoting,pivoting pivoting$_{\rm m}$|firstly translates a source language into the pivot language which is later translated to the target language
+2,Europarl and MultiUN,Europarl MultiUN|Europarl BIBREF31 MultiUN BIBREF32
+3,French-English-Spanish (Fr-En-Es,"De-En, En-Fr, Fr-En, En-Es, Ro-En, En-De, Ar-En, En-Ru|French-English-Spanish (Fr-En-Es), German-English-French (De-En-Fr) and Romanian-English-German (Ro-En-De) Arabic (Ar), Spanish (Es), and Russian (Ru), and mutual translation between themselves constitutes six zero-shot translation"
+AVERAGE,,,0.615,0.25

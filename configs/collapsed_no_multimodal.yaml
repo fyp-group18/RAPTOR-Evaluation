@@ -1,0 +1,6 @@
+# Collapsed tree retrieval with text-only embeddings (no multimodal)
+retrieval_mode: "collapsed"
+use_multimodal_embed: false
+use_table_parent_child: true
+use_retrieval_expansion: true
+description: "Collapsed tree retrieval with text-only embeddings — ablation to measure multimodal embedding contribution"

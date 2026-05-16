@@ -1,0 +1,7 @@
+# Full system with collapsed tree retrieval (default)
+retrieval_mode: "collapsed"
+build_raptor_tree: true
+use_multimodal_embed: true
+use_table_parent_child: true
+use_retrieval_expansion: true
+description: "Full system with collapsed tree retrieval — summary nodes at all RAPTOR levels compete with leaf nodes via cosine similarity"

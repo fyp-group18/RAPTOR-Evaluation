@@ -1,0 +1,10 @@
+index,prediction,ground_truths,anls,page_accuracy
+0,0.22,0.28
+1,"UNIVERSITY OF CALIFORNIA, SAN DIEGO","University of California|university of california|university of california, san diego"
+2,San Diego,San Diego|san diego
+3,Paul,Paul
+4,ITC Limited,ITC Limited|itc limited
+5,AASHIRVAAD,aashirvaad|Aashirvaad
+6,"1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036","1128 sixteenth st., N. W., washington, D. C. 20036|1128 SIXTEENTH ST., N. W., WASHINGTON, D. C. 20036"
+7,unanswerable,The Robert A. Welch Foundation
+AVERAGE,,,0.8333333333333334,0.875
