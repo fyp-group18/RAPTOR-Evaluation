@@ -2,7 +2,7 @@
 
 Evaluation harness for benchmarking the multimodal RAPTOR retrieval system against published academic baselines.
 
-This harness validates RAPTOR's hierarchical retrieval against four benchmarks: QASPER, MP-DocVQA, DocVQA, and TAT-DQA, with full ablation configuration support.
+This harness validates RAPTOR's hierarchical retrieval against three benchmarks: QASPER, MP-DocVQA, and DocVQA, with full ablation configuration support.
 
 ## Dependency
 
@@ -35,7 +35,6 @@ Datasets are auto-downloaded from HuggingFace and cached in `datasets/` (gitigno
 | QASPER | `allenai/qasper` | validation | NLP papers with QA; embeddings cached per-paper |
 | MP-DocVQA | `lmms-lab/MP-DocVQA` | val | Multi-page document VQA; ~927 docs, up to 20 pages each |
 | DocVQA | `lmms-lab/DocVQA` | test | Document visual QA |
-| TAT-DQA | — | — | Download from [NExTplusplus/TAT-DQA](https://github.com/NExTplusplus/TAT-DQA) |
 
 ## Running Benchmarks
 
@@ -92,7 +91,7 @@ python run_eval.py \
 
 | Argument | Default | Description |
 |----------|---------|-------------|
-| `--benchmark` | (required) | `qasper`, `mpdocvqa`, `docvqa`, or `tat-dqa` |
+| `--benchmark` | (required) | `qasper`, `mpdocvqa`, or `docvqa` |
 | `--config` | (required) | Path to YAML config file |
 | `--output` | auto-generated | Path for output CSV |
 | `--data-dir` | `datasets/` | Dataset cache directory |
@@ -199,8 +198,8 @@ Ablation toggles (`use_multimodal_embed`, `use_table_parent_child`, `use_retriev
 |--------|----------|---------|
 | ANLS | `anls_score()` | MP-DocVQA, DocVQA |
 | Page Accuracy | per-question hit rate | MP-DocVQA (secondary) |
-| Token F1 | `f1_token_score()` | QASPER, TAT-DQA |
-| Exact Match | `exact_match()` | QASPER, TAT-DQA |
+| Token F1 | `f1_token_score()` | QASPER |
+| Exact Match | `exact_match()` | QASPER |
 
 All metrics normalize text (lowercase, strip, remove articles/punctuation) before comparison. When multiple ground truths exist, the max score is taken.
 

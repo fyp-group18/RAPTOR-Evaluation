@@ -55,7 +55,6 @@ logger = logging.getLogger(__name__)
 BENCHMARKS = {
     "qasper": "benchmarks.qasper_benchmark.QasperBenchmark",
     "docvqa": "benchmarks.docvqa_benchmark.DocvqaBenchmark",
-    "tat-dqa": "benchmarks.tat_dqa_benchmark.TatDqaBenchmark",
     "mpdocvqa": "benchmarks.mpdocvqa_benchmark.MpDocVqaBenchmark",
 }
 
