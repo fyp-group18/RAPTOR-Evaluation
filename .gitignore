@@ -29,6 +29,16 @@ datasets/*.json
 .DS_Store
 Thumbs.db
 
+# Tree cache (local mirror of GCS tree artifacts)
+.tree-cache/
+
+# Evaluation results (generated per-run)
+evaluation/results/
+
+# Credentials
+credentials.json
+
 # Env
 .env
 .env.local
+*.pkl

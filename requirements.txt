@@ -8,3 +8,6 @@ langchain-text-splitters>=0.2.0
 # MP-DocVQA dataset loading
 datasets>=2.18.0
 Pillow>=10.0.0
+# Ingestion orchestrator
+google-cloud-storage>=2.14.0
+docling>=2.0.0

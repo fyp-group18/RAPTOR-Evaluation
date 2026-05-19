@@ -6,7 +6,7 @@ This harness validates RAPTOR's hierarchical retrieval against three benchmarks:
 
 ## Dependency
 
-This harness imports from the [hitl-dss-react](https://github.com/fyp-group18/hitl-dss-react) backend (`core.*` and `modules.*` packages). The main backend must be importable at runtime.
+This harness imports from the [raptor](https://github.com/fyp-group18/raptor) backend (`core.*` and `modules.*` packages). The main backend must be importable at runtime.
 
 ## Setup
 
@@ -17,8 +17,8 @@ git clone https://github.com/fyp-group18/RAPTOR-Evaluation.git
 # Install eval-specific dependencies
 pip install -r requirements.txt
 
-# Ensure the hitl-dss-react backend is on PYTHONPATH
-export PYTHONPATH=/path/to/hitl-dss-react/backend:$PYTHONPATH
+# Ensure the raptor backend is on PYTHONPATH
+export PYTHONPATH=/path/to/raptor/backend:$PYTHONPATH
 ```
 
 Required environment variables (from the main backend):

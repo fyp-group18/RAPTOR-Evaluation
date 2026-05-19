@@ -18,6 +18,7 @@ import json
 import logging
 import re
 import time
+import uuid
 from concurrent.futures import ThreadPoolExecutor, as_completed, TimeoutError as FuturesTimeoutError
 
 import numpy as np
@@ -187,7 +188,7 @@ def build_raptor_tree(
             summary = _cluster_summary(texts, level=current_level)
             if summary is None:
                 return None
-            return {"text": summary, "embedding": None, "level": current_level}
+            return {"text": summary, "embedding": None, "level": current_level, "id": str(uuid.uuid4())}
 
         next_level_nodes: list[dict] = []
         # Per-cluster timeout: 180s covers worst-case large clusters.
