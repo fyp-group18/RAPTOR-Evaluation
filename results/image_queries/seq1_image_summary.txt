@@ -1,0 +1,38 @@
+Image Query Evaluation Summary
+Date: 2026-05-19T09:24:31.366019+00:00
+Total queries: 45
+Unmatched (skipped): 0
+Evaluated: 45
+
+
+Seq 1 — AS-AMM-01-000:
+  original_raptor_text_only      n= 27  R@1=0.037  R@5=0.185  R@10=0.296  MRR=0.117  NDCG@10=0.148
+  full_context_aware             n= 27  R@1=0.000  R@5=0.037  R@10=0.037  MRR=0.011  NDCG@10=0.016
+    p(recall@1): 0.2623  delta=-0.037
+    p(recall@5): 0.0281  delta=-0.148
+    p(recall@10): 0.0014  delta=-0.259
+    p(mrr): 0.0129  delta=-0.106
+    p(ndcg@10): 0.0085  delta=-0.132
+
+Seq 1 — SC10000AMM:
+  original_raptor_text_only      n= 18  R@1=0.111  R@5=0.167  R@10=0.389  MRR=0.162  NDCG@10=0.207
+  full_context_aware             n= 18  R@1=0.000  R@5=0.000  R@10=0.000  MRR=0.000  NDCG@10=0.000
+    p(recall@1): 0.1322  delta=-0.111
+    p(recall@5): 0.0640  delta=-0.167
+    p(recall@10): 0.0007  delta=-0.389
+    p(mrr): 0.0223  delta=-0.162
+    p(ndcg@10): 0.0069  delta=-0.207
+
+Seq 3 — AS-AMM-01-000:
+  full_context_aware             n= 27  R@1=0.000  R@5=0.037  R@10=0.037  MRR=0.011  NDCG@10=0.016
+  no_table_parent_child          n= 27  R@1=0.000  R@5=0.037  R@10=0.074  MRR=0.014  NDCG@10=0.028
+  no_header_propagation          n= 27  R@1=0.000  R@5=0.037  R@10=0.074  MRR=0.018  NDCG@10=0.031
+  no_caption_folding             n= 27  R@1=0.037  R@5=0.111  R@10=0.296  MRR=0.093  NDCG@10=0.135
+  baseline_naive_chunking        n= 27  R@1=0.037  R@5=0.148  R@10=0.148  MRR=0.087  NDCG@10=0.100
+
+Seq 3 — SC10000AMM:
+  full_context_aware             n= 18  R@1=0.000  R@5=0.000  R@10=0.000  MRR=0.000  NDCG@10=0.000
+  no_table_parent_child          n= 18  R@1=0.000  R@5=0.000  R@10=0.056  MRR=0.009  NDCG@10=0.020
+  no_header_propagation          n= 18  R@1=0.000  R@5=0.000  R@10=0.000  MRR=0.003  NDCG@10=0.000
+  no_caption_folding             n= 18  R@1=0.000  R@5=0.000  R@10=0.000  MRR=0.002  NDCG@10=0.000
+  baseline_naive_chunking        n= 18  R@1=0.000  R@5=0.056  R@10=0.056  MRR=0.014  NDCG@10=0.024

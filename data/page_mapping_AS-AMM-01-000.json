@@ -1,0 +1,290 @@
+{
+  "manual_name": "AS-AMM-01-000",
+  "mapping": {
+    "344": 344,
+    "423": 423,
+    "292": 292,
+    "318": 318,
+    "304": 304,
+    "395": 395,
+    "397": 397,
+    "407": 407,
+    "247": 247,
+    "460": 460,
+    "476": 476,
+    "712": 712,
+    "332": 332,
+    "759": 759,
+    "426": 426,
+    "215": 215,
+    "221": 221,
+    "435": 435,
+    "656": 656,
+    "355": 355,
+    "326": 326,
+    "648": 648,
+    "580": 580,
+    "663": 663,
+    "702": 702,
+    "439": 439,
+    "556": 556
+  },
+  "stats": {
+    "total_queries": 27,
+    "matched": 27,
+    "unmatched": 0,
+    "most_common_offset": 0,
+    "offset_is_constant": true,
+    "offset_distribution": {
+      "0": 27
+    },
+    "method_distribution": {
+      "figure_label_in_tree": 27
+    }
+  },
+  "details": [
+    {
+      "query_id": "EVAL-IMG-016",
+      "figure_label": "Fig.  28-1",
+      "pdf_page": 344,
+      "docling_page": 344,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-017",
+      "figure_label": "Fig.  32-13",
+      "pdf_page": 423,
+      "docling_page": 423,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-018",
+      "figure_label": "Fig.  27-1",
+      "pdf_page": 292,
+      "docling_page": 292,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-019",
+      "figure_label": "Fig.  27-10",
+      "pdf_page": 318,
+      "docling_page": 318,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-020",
+      "figure_label": "Fig.  27-5",
+      "pdf_page": 304,
+      "docling_page": 304,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-021",
+      "figure_label": "Fig.  32-1",
+      "pdf_page": 395,
+      "docling_page": 395,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-022",
+      "figure_label": "Fig.  32-2",
+      "pdf_page": 397,
+      "docling_page": 397,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-023",
+      "figure_label": "Fig.  32-6",
+      "pdf_page": 407,
+      "docling_page": 407,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-024",
+      "figure_label": "Fig.  24-1",
+      "pdf_page": 247,
+      "docling_page": 247,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-025",
+      "figure_label": "Fig.  34-1",
+      "pdf_page": 460,
+      "docling_page": 460,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-026",
+      "figure_label": "Fig.  34-8",
+      "pdf_page": 476,
+      "docling_page": 476,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-027",
+      "figure_label": "Fig.  75-1",
+      "pdf_page": 712,
+      "docling_page": 712,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-028",
+      "figure_label": "Fig.  27-16",
+      "pdf_page": 332,
+      "docling_page": 332,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-029",
+      "figure_label": "Fig.  78-1",
+      "pdf_page": 759,
+      "docling_page": 759,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-030",
+      "figure_label": "Fig.  32-15",
+      "pdf_page": 426,
+      "docling_page": 426,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-031",
+      "figure_label": "Fig.  21-1",
+      "pdf_page": 215,
+      "docling_page": 215,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-032",
+      "figure_label": "Fig.  21-4",
+      "pdf_page": 221,
+      "docling_page": 221,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-033",
+      "figure_label": "Fig.  32-18",
+      "pdf_page": 435,
+      "docling_page": 435,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": false
+    },
+    {
+      "query_id": "EVAL-IMG-034",
+      "figure_label": "Fig.  71-1",
+      "pdf_page": 656,
+      "docling_page": 656,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-035",
+      "figure_label": "Fig.  28-4",
+      "pdf_page": 355,
+      "docling_page": 355,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-036",
+      "figure_label": "Fig.  27-12",
+      "pdf_page": 326,
+      "docling_page": 326,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-037",
+      "figure_label": "Fig.  61-2",
+      "pdf_page": 648,
+      "docling_page": 648,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-038",
+      "figure_label": "Fig.  53-1",
+      "pdf_page": 580,
+      "docling_page": 580,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-039",
+      "figure_label": "Fig.  71-2",
+      "pdf_page": 663,
+      "docling_page": 663,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-040",
+      "figure_label": "Fig.  74-2",
+      "pdf_page": 702,
+      "docling_page": 702,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-041",
+      "figure_label": "Fig.  32-23",
+      "pdf_page": 439,
+      "docling_page": 439,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-042",
+      "figure_label": "Fig.  51-1",
+      "pdf_page": 556,
+      "docling_page": 556,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": false
+    }
+  ]
+}

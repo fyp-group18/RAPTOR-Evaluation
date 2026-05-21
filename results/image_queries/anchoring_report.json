@@ -1,0 +1,49 @@
+{
+  "page_mapping_stats": {
+    "AS-AMM-01-000": {
+      "total_queries": 27,
+      "matched": 27,
+      "unmatched": 0,
+      "most_common_offset": 0,
+      "offset_is_constant": true,
+      "offset_distribution": {
+        "0": 27
+      },
+      "method_distribution": {
+        "figure_label_in_tree": 27
+      }
+    },
+    "SC10000AMM": {
+      "total_queries": 18,
+      "matched": 18,
+      "unmatched": 0,
+      "most_common_offset": 0,
+      "offset_is_constant": true,
+      "offset_distribution": {
+        "0": 18
+      },
+      "method_distribution": {
+        "figure_label_in_tree": 18
+      }
+    }
+  },
+  "anchoring_stats": {
+    "total_queries": 45,
+    "overall": {
+      "high": 45
+    },
+    "by_document": {
+      "SC10000AMM": {
+        "high": 18
+      },
+      "AS-AMM-01-000": {
+        "high": 27
+      }
+    },
+    "match_reasons": {
+      "figure_label+image": 42,
+      "figure_label": 3
+    }
+  },
+  "unmatched_queries": []
+}

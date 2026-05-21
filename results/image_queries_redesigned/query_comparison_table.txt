@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ID             | Original Query                                               | Redesigned Query                                             | Caption (ground truth)                             |  OK?
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EVAL-IMG-001   | Getting intermittent power to my nav lights but the landi... | What technical diagram illustrates an aircraft's electric... | This technical diagram illustrates an aircraft'... |   OK
+EVAL-IMG-002   | Fuel pressure is dropping during turns to the left but no... | Show me the schematic illustrating a dual-tank fuel syste... | This diagram illustrates a dual-tank fuel syste... |   OK
+EVAL-IMG-003   | Fuel selector handle feels sloppy and won't stay in the '... | Exploded view schematic of the fuel selector's detent mec... | This is an exploded view of a mechanical assemb... |   OK
+EVAL-IMG-004   | After a hard landing, there's a noticeable inward bow on ... | Show me a diagram of the main landing gear assembly, its ... | This diagram illustrates the front view of an a... |   OK
+EVAL-IMG-005   | Tail wheel shimmying badly during taxi. The springs seem ... | Show me the exploded view of the standard tail wheel asse... | Standard Tail Wheel Assembly                       |   OK
+EVAL-IMG-006   | Engine running rough at idle, sounds like one cylinder is... | Show me an illustration of a central manifold connecting ... | A central manifold connecting four external com... |   OK
+EVAL-IMG-007   | Reinstalling the left wing after annual. Can't remember t... | Show me the exploded view diagram of wing and lift strut ... | This technical diagram illustrates the detailed... |   OK
+EVAL-IMG-008   | After re-rigging the wings, the aircraft wants to roll le... | Show me the technical diagram illustrating methods for me... | This technical diagram illustrates methods for ... |   OK
+EVAL-IMG-009   | Left flap doesn't seem to deploy as far as the right one.... | Show me the diagram for measuring flap deflection angle.     | A digital level is used to measure the angle of... |   OK
+EVAL-IMG-010   | Trim is heavy nose-up and won't hold position in cruise. ... | Show me the diagram depicting a specialized strip with an... | A specialized strip with an attached sensor or ... |   OK
+EVAL-IMG-011   | Oil temp running high on hot days. Want to check the oil ... | Show me the diagram of the oil cooler and its connecting ... | An annotated view of an aircraft engine compart... |   OK
+EVAL-IMG-012   | My GPS is getting power but the audio panel has gone dead... | Show me the schematic depicting wiring and connections fo... | This is a wiring diagram for an aircraft's audi... |   OK
+EVAL-IMG-013   | Rudder feels stiff going to the left but free going right... | Show me the exploded view of the rudder cable fitting ass... | This is an exploded view of a cable fitting ass... |   OK
+EVAL-IMG-014   | Found a small tear in the wing fabric near a rib. Need to... | Show me a diagram depicting a mechanical fastener securin... | A mechanical fastener secures multiple layered ... |   OK
+EVAL-IMG-015   | Carb heat doesn't seem to be working — no RPM drop when I... | Diagram showing the carburetor heat valve and its control... | An aircraft carburetor is shown connected to it... |   OK
+EVAL-IMG-016   | Engine cuts out momentarily during steep climbs. Fuel pre... | Show me the fuel system schematic.                           | - page_344_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-017   | Left brake is spongy, right side is fine. Already bled bo... | Show me the schematic diagram of the brake system.           | - page_423_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-018   | Noticed some free play in the stick when moving it latera... | Show me the diagram of the aileron control system.           | - page_292_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-019   | Elevator feels heavy and requires more back-pressure than... | Show me the diagram of the elevator control system.          | - page_318_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-020   | Rudder pedals return to center but there's a noticeable '... | Show me the diagram of the rudder control system.            | - page_304_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-021   | Aircraft seems to sit lower on the left side after landin... | Show me the diagram of the fixed tricycle landing gear.      | - page_395_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-022   | Need to replace left main gear leg. There are inner and o... | Exploded view diagram of the main landing gear assembly s... | - page_397_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-023   | Nose wheel is cocked slightly to the left when the aircra... | Show me an exploded view of the nose landing gear assembl... | - page_407_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-024   | Generator light came on in flight but avionics still seem... | Show me the electrical system schematic diagram, includin... | - page_247_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-025   | Airspeed indicator reads zero on the ground but altimeter... | Show me a diagram of the pitot-static system.                | - page_460_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-026   | Lost both SkyView screens simultaneously but engine instr... | Show me the Dynon Skyview System schematic.                  | - page_476_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-027   | Coolant temperature climbing above normal in cruise. Ther... | Show me the cooling system schematic illustrating hose ro... | - page_712_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-028   | Flaps only deploy about half way. The lever in the cockpi... | Show me the diagram of the wing flap control system.         | - page_332_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-029   | Hearing a slight exhaust leak on the right side of the en... | Show me the system diagram of the exhaust system, includi... | - page_759_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-030   | After brake pad replacement, I'm not sure which way the a... | Show me the diagram illustrating the order of tightening ... | - page_426_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-031   | Cockpit is fogging up badly in humid conditions. The eyeb... | Show me the system diagram for cockpit ventilation, inclu... | - page_215_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-032   | Cabin heat only blows on the right side. Left footwell is... | Diagram of the cockpit heating system components and air ... | - page_221_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-033   | There's a weep of brake fluid at the nose wheel brake con... | Show me a diagram depicting the assembly of nose banjo fi... | Nose Banjo Fittings                                |   OK
+EVAL-IMG-034   | Oil is dripping from the bottom of the engine cowl. Can't... | Show me the power plant location diagram.                    | - page_656_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-035   | Doing the 100-hour fuel filter inspection. The filter bow... | Show me the exploded view diagram of the fuel filter asse... | - page_355_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-036   | After replacing the elevator trim actuator, the trim tab ... | Diagram depicting the elevator control system adjustment ... | - page_326_img_1: | - page_326_img_2:              | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-037   | Reinstalling the propeller after inspection. The manual s... | Show me the propeller bolt tightening sequence diagram.      | - page_648_img_1: | - page_648_img_2:              | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-038   | Found a crack in the composite skin near the wing root fa... | Show me a diagram of the fuselage structure.                 | - page_580_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-039   | One of the cowling fasteners is stripped and I need to re... | Show me the diagram of the engine cowling fasteners for t... | - page_663_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-040   | After replacing the ignition leads, engine is running rou... | Diagram of Rot Rotax engine firing order and cylinder num... | - page_702_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-041   | Brakes are squealing on landing rollout. Pads still have ... | Show me the inspection diagram for brake pads.               | - page_439_img_1:                                  | FAIL
+                 ^ FLAGS: no_caption_overlap
+EVAL-IMG-042   | Have a dent about 15mm deep in the fuselage composite ski... | Show me the inspection diagram for Repair Class 3.           | Repair Class 3                                     |   OK
+EVAL-IMG-043   | Need to weigh the aircraft for CG calculation. The manual... | What diagram shows the aircraft's dimensions and the loca... | This is a three-view engineering drawing of an ... |   OK
+EVAL-IMG-044   | ELT did a false activation on the ground. Want to check i... | Show me the ELT schematic depicting connections to the re... | This diagram illustrates an Emergency Locator T... |   OK
+EVAL-IMG-045   | Stall warning horn goes off too early — activates about 1... | Show me an illustration of an aircraft stall warning vane.   | An aircraft stall warning vane is shown on a ye... |   OK
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Total: 45 queries, 25 flagged
