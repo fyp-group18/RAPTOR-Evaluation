@@ -1,0 +1,6 @@
+# Collapsed tree retrieval without retrieval-time parent swap
+retrieval_mode: "collapsed"
+use_multimodal_embed: true
+use_table_parent_child: true
+use_retrieval_expansion: false
+description: "Collapsed tree retrieval without retrieval-time parent expansion — ablation to measure parent swap contribution"

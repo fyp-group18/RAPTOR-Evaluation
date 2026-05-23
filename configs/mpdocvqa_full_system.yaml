@@ -1,0 +1,13 @@
+# MP-DocVQA Row C: Full multimodal system
+# Tests total contribution of multimodal + RAPTOR + table-aware on real documents.
+# Delta (C-A) measures total improvement over the OCR text-only baseline.
+benchmark: mpdocvqa
+doc_processing: "multimodal_page"
+retrieval_mode: "collapsed"
+build_raptor_tree: true
+use_table_parent_child: true
+use_retrieval_expansion: true
+use_multimodal_embed: true
+retrieval_scope: "per_document"
+top_k: 5
+description: "MP-DocVQA Row C: multimodal page-level leaves, RAPTOR tree, table P-C, collapsed"

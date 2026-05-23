@@ -1,0 +1,30 @@
+# Evaluation + tree building on Cloud Run (no Docling/torch/CUDA)
+
+# --- Embedding & LLM ---
+google-genai>=0.3.0
+langchain-google-genai>=4.0.0
+langchain_text_splitters>=0.2.0
+
+# --- Cloud Storage ---
+google-cloud-storage>=2.14.0
+
+# --- Clustering (RAPTOR tree) ---
+umap-learn
+scikit-learn
+numpy>=1.26.0
+
+# --- Docling document model (for parsing cached JSON, not PDF processing) ---
+docling-core>=2.0.0
+
+# --- Evaluation metrics ---
+python-Levenshtein>=0.25.0
+
+# --- Auth (imported transitively via core.config) ---
+google-auth>=2.28.0
+
+# --- Utilities ---
+pydantic>=2.6.0
+tenacity>=8.2.3
+python-dotenv>=1.0.0
+pillow>=10.2.0
+httpx>=0.27.0

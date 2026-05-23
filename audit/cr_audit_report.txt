@@ -1,0 +1,525 @@
+========================================================================
+CR CONTEXT QUALITY AUDIT
+========================================================================
+
+AS-AMM-01-000 (n=858 chunks):
+  A (correct+specific):   72 ( 25.9%)
+  B (correct+vague):      48 ( 17.3%)
+  C (wrong attribution): 155 ( 55.8%)
+  D (fabricated details):   3 (  1.1%)
+
+SC10000AMM (n=396 chunks):
+  A (correct+specific):   28 ( 25.5%)
+  B (correct+vague):      31 ( 28.2%)
+  C (wrong attribution):  45 ( 40.9%)
+  D (fabricated details):   6 (  5.5%)
+
+TABLE chunks only:
+  AS-AMM-01-000:  A=33% B=15% C=51% D=0%
+  SC10000AMM:  A=30% B=26% C=35% D=9%
+
+PROSE chunks only:
+  AS-AMM-01-000:  A=21% B=18% C=58% D=2%
+  SC10000AMM:  A=21% B=30% C=46% D=2%
+
+========================================================================
+WORST OFFENDERS (Category C and D)
+========================================================================
+
+AS-AMM-01-000:
+------------------------------------------------------------------------
+
+CHUNK #194 (AS-AMM-01-000, page 103, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [CONTENTS | Page 103]
+CR context:          "This chunk details aircraft shoring procedures, including description and maintenance practices, found within the "LIFTING AND SHORING" chapter (07-10) and precedes the "LEVELING AND WEIGHING" chapter (08)."
+Original chunk text: "Aircraft Maintenance Manual AS-AMM-01-000
+
+07-10  SHORING
+
+1. DESCRIPTION
+
+Before carrying out any maintenance in the re"
+Category:            D ()
+
+
+CHUNK #414 (AS-AMM-01-000, page 305, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [NOTE | Page 305]
+CR context:          "This chunk details the recommended tools, materials, and personnel for the maintenance practices related to the removal of rudder control cables within the "Rudder" section of the "Flight Controls" chapter of the Aircraft Maintenance Manual."
+Original chunk text: "Recommended tools, materials, persons and documentation:
+
+Tab. 27-3 Recommended tools, materials, persons and documentat"
+Category:            D (D)
+
+
+CHUNK #799 (AS-AMM-01-000, page 718, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [CONTENTS | Page 718]
+CR context:          "This chunk introduces Chapter 76, "ENGINE CONTROLS," immediately following a"
+Original chunk text: "ENGINE COOLING
+
+WT9 Dynamic LSA / Club
+
+AEROS POOL®
+
+This page is left blank intentionally
+
+ENGINE
+
+WT9 Dynamic LSA / Cl"
+Category:            D (D)
+
+
+CHUNK #2 (AS-AMM-01-000, page 3, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CONTENTS | Page 3]
+CR context:          "This chunk is part of the table of contents for the Introduction chapter, specifically listing manufacturers and the general description of the manual."
+Original chunk text: "|           | 1.                                                                                | AIRCRAFT MANUFACTURER."
+Category:            C (C)
+
+
+CHUNK #10 (AS-AMM-01-000, page 11, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [4. GENERAL SAFETY INFORMATION | Page 11]
+CR context:          "This chunk describes the manual's structure, including chapter arrangement, numbering conventions for pages, figures, and tables, and definitions of warnings, cautions, and notes, as part of the "MANUAL DESCRIPTION" section."
+Original chunk text: "Chapters are arranged in the following groups:
+
+ INTRODUCTION (Chapter 01)
+
+ AIRCRAFT (Chapters 04 to 12)
+
+ AIRFRAME "
+Category:            C ()
+
+
+CHUNK #13 (AS-AMM-01-000, page 15, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [Aircraft Maintenance Manual AS-AMM-01-000 | Page 15]
+CR context:          "This chunk is located in the "INTRODUCTION" section of the Aircraft"
+Original chunk text: "ADAHRS
+
+Air Data, Attitude and Heading Reference System
+
+ADS-B
+
+Automatic Dependent Surveillance - broadcast
+
+AOA
+
+Angle"
+Category:            C ()
+
+
+CHUNK #26 (AS-AMM-01-000, page 24, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [Aircraft Maintenance Manual AS-AMM-01-000 | Page 24]
+CR context:          "This chunk is part of the "List"
+Original chunk text: "| 11-05      | 22. 05. 2017    | all           |
+| 11-06      | 22. 05. 2017    | all           |
+| 11-07      | 22. 05."
+Category:            C (C)
+
+
+CHUNK #38 (AS-AMM-01-000, page 28, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [Aircraft Maintenance Manual AS-AMM-01-000 | Page 28]
+CR context:          "List of effective pages for Chapter 27, Flight Controls."
+Original chunk text: "| 27-05      | 22. 05. 2017    | all           |
+| 27-06      | 22. 05. 2017    | all           |
+| 27-07      | 22. 05."
+Category:            C ()
+
+
+CHUNK #41 (AS-AMM-01-000, page 29, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [Aircraft Maintenance Manual AS-AMM-01-000 | Page 29]
+CR context:          "This chunk is part of the "LIST OF EFFECTIVE PAGES" within the "INTRODUCTION" section, detailing the revision status for pages 27-47 through 27-56, which cover "FLIGHT CONTROLS"."
+Original chunk text: "| 27-47      | 22. 05. 2017    | all           |
+| 27-48      | 22. 05. 2017    | all           |
+| 27-49      | 22. 05."
+Category:            C ()
+
+
+CHUNK #48 (AS-AMM-01-000, page 32, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [Aircraft Maintenance Manual AS-AMM-01-000 | Page 32]
+CR context:          "This chunk serves as a page footer, identifying the aircraft type, document title, document number, and manufacturer."
+Original chunk text: "WT9 Dynamic LSA / Club
+
+Aircraft Maintenance Manual AS-AMM-01-000
+
+AEROS POOL®"
+Category:            C ()
+
+
+SC10000AMM:
+------------------------------------------------------------------------
+
+CHUNK #64 (SC10000AMM, page 41, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [8.7 General Torque Values | Page 41]
+CR context:          "This chunk is a table row separator within the "General Torque Values" table (Table 5.2.1) in Section 5.2.9.7, which details recommended fastener torques."
+Original chunk text: "|----------------------|------------------------------------------------------------------------------------------------"
+Category:            D ()
+
+
+CHUNK #70 (SC10000AMM, page 41, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [8.7 General Torque Values | Page 41]
+CR context:          "Table 5.2.1,"
+Original chunk text: "| 10-32                | 38                                                                                             "
+Category:            D ()
+
+
+CHUNK #103 (SC10000AMM, page 79, type: PROSE)
+──────────────────────────────────────────────────
+Ground truth header: [CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 79]
+CR context:          "This chunk is part of Section 5.4.13, "Instruments and Avionics Systems," detailing various transponder, GPS, and FlightDEK options, and includes figures of different instrument panel configurations."
+Original chunk text: "4.1.
+
+Garmin GTX 327 Transponder  ..................................................................................... "
+Category:            D ()
+
+
+CHUNK #143 (SC10000AMM, page 121, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 121]
+CR context:          "This chunk is a segment of Table 6.1.1,"
+Original chunk text: "| Dynon Flight DEK-D180     |                             |                                                        | X  "
+Category:            D (D)
+
+
+CHUNK #149 (SC10000AMM, page 125, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CAUTION | Page 125]
+CR context:          "This table, titled "Table 6.2.1: Fuel, Oil, Brake Fluid, and Tire Pressures," is located within Section 6.2.3 "Servicing of Fluids" of Chapter 6 "Line Maintenance, Repairs, and Alterations.""
+Original chunk text: "| Item                 | Specifications                     | Specifications                                            "
+Category:            D ()
+
+
+CHUNK #372 (SC10000AMM, page 325, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 325]
+CR context:          "This chunk is part of the ""
+Original chunk text: "CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL
+
+|   10 | Tailwheel Attachments: - Visual inspection for tightness and sa"
+Category:            D ()
+
+
+CHUNK #25 (SC10000AMM, page 7, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [TABLE OF CONTENTS | Page 7]
+CR context:          "This chunk is"
+Original chunk text: "|     | 5.2.8                                     | RECOMMENDED                               | 6.2.1                   "
+Category:            C (C)
+
+
+CHUNK #31 (SC10000AMM, page 8, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CUB CRAFTERS, INC. | Page 8]
+CR context:          "This chunk is a separator line within the main Table of Contents, indicating the continuation of the content listing."
+Original chunk text: "|-----------------------------------------------------------------------------------------------------------------------"
+Category:            C (C)
+
+
+CHUNK #32 (SC10000AMM, page 8, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CUB CRAFTERS, INC. | Page 8]
+CR context:          "Table of Contents for Appendices,"
+Original chunk text: "| 6.A APPENDIX A 7 HEAVY MAINTENANCE, REPAIRS & ALTERATIONS 7.1 AUTHORIZATION TO PERFORM HEAVY MAINTENANCE, REPAIR, & AL"
+Category:            C (C)
+
+
+CHUNK #36 (SC10000AMM, page 11, type: TABLE)
+──────────────────────────────────────────────────
+Ground truth header: [CC11-100 MAINTENANCE MANUAL | Page 11]
+CR context:          "This chunk is a "CHANGE OF ADDRESS/OWNERSHIP FORM" found in Section 1.1, "General," of the document, which provides contact information and forms for updating aircraft ownership or address details."
+Original chunk text: "| CHANGE OF ADDRESS/OWNERSHIP FORM        | CHANGE OF ADDRESS/OWNERSHIP FORM        | CHANGE OF ADDRESS/OWNERSHIP FORM  "
+Category:            C ()
+
+========================================================================
+SIDE-BY-SIDE: HEADER PREFIX vs CR CONTEXT (20 samples per doc)
+========================================================================
+
+AS-AMM-01-000:
+------------------------------------------------------------------------
+
+CHUNK #654 (page 554)
+  Header prefix:  "[C. Rovings | Page 554]"
+  CR context:     "This chunk details the specifications and applications"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=5 tokens, CR=7 tokens
+
+CHUNK #114 (page 71)
+  Header prefix:  "[Aircraft Maintenance Manual AS-AMM-01-000 PERIODIC INSPECTIONS | Page 71]"
+  CR context:     "This chunk is page"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=4 tokens
+
+CHUNK #25 (page 24)
+  Header prefix:  "[Aircraft Maintenance Manual AS-AMM-01-000 | Page 24]"
+  CR context:     "This chunk is part of the "LIST OF EFFECTIVE PAGES" for the Aircraft Maintenance Manual, detailing the issue date and effectivity for pages 09-01 through 11-08."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=7 tokens, CR=26 tokens
+
+CHUNK #759 (page 662)
+  Header prefix:  "[A. Engine attachment | Page 662]"
+  CR context:     "This chunk details the installation of engine"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=6 tokens, CR=7 tokens
+
+CHUNK #281 (page 175)
+  Header prefix:  "[CAUTION | Page 175]"
+  CR context:     "This chunk details maintenance practices for aircraft tires"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=4 tokens, CR=8 tokens
+
+CHUNK #250 (page 153)
+  Header prefix:  "[Aircraft Maintenance Manual AS-AMM-01-000 spins are prohibited! | Page 153]"
+  CR context:     "This chunk is part of the "1"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=10 tokens, CR=7 tokens
+
+CHUNK #228 (page 135)
+  Header prefix:  "[C. Long term storage (over 91 days) | Page 135]"
+  CR context:     "This chunk details maintenance practices for temporary and"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=10 tokens, CR=8 tokens
+
+CHUNK #142 (page 76)
+  Header prefix:  "[PERIODIC INSPECTIONS | Page 76]"
+  CR context:     "The chunk details scheduled maintenance tasks for the aircraft's canopy group, including visual"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=5 tokens, CR=13 tokens
+
+CHUNK #754 (page 660)
+  Header prefix:  "[NOTE | Page 660]"
+  CR context:     "Engine troubleshooting table for issues"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=4 tokens, CR=5 tokens
+
+CHUNK #104 (page 70)
+  Header prefix:  "[PERIODIC INSPECTIONS | Page 70]"
+  CR context:     "This chunk details a specific scheduled maintenance task for engine cowlings and firewall, found within the "PERIODIC INSPECTIONS" section of the Aircraft Maintenance Manual."
+  Verdict:        Roughly equivalent (CR mentions section name)
+  Token overhead: Header=5 tokens, CR=24 tokens
+
+CHUNK #692 (page 592)
+  Header prefix:  "[(1) Rudder removal: | Page 592]"
+  CR context:     "This chunk details the description and maintenance procedures, specifically rudder removal, for the aircraft's rudder, located within the stabilizers section of the Aircraft Maintenance Manual."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=6 tokens, CR=25 tokens
+
+CHUNK #758 (page 661)
+  Header prefix:  "[Aircraft Maintenance Manual AS-AMM-01-000 | Page 661]"
+  CR context:     "This chunk details the removal and installation procedures for engine cowlings, including disconnecting hoses and electrical connectors, as part of the "Power Plant"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=7 tokens, CR=23 tokens
+
+CHUNK #558 (page 450)
+  Header prefix:  "[NOTE | Page 450]"
+  CR context:     "Maintenance procedures for exterior lighting, detailing removal, installation, and polishing of anti-collision/position lights, and introducing landing light maintenance."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=4 tokens, CR=18 tokens
+
+CHUNK #89 (page 61)
+  Header prefix:  "[5. PUBLICATIONS, REFERENCES | Page 61]"
+  CR context:     "This chunk details inspection tolerances and"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=6 tokens, CR=6 tokens
+
+CHUNK #604 (page 495)
+  Header prefix:  "[Airplane Maintenance Manual - AS-AMM-01-000 | Page 495]"
+  CR context:     "Description of the aircraft's instrument panel and its components."
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=8 tokens, CR=9 tokens
+
+CHUNK #432 (page 325)
+  Header prefix:  "[B. Pitch trim system | Page 325]"
+  CR context:     "Maintenance procedures for the removal and installation of the pitch trim system, a component of the elevator control system, within the aircraft maintenance manual."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=7 tokens, CR=24 tokens
+
+CHUNK #32 (page 26)
+  Header prefix:  "[Aircraft Maintenance Manual AS-AMM-01-000 | Page 26]"
+  CR context:     "This chunk is part of the "List of Effective Pages" within the "INTRODUCTION" section, specifically detailing the effective pages for the "AIR CONDITIONING" chapter (Chapter 21) of the Aircraft Maintenance Manual."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=7 tokens, CR=31 tokens
+
+CHUNK #30 (page 26)
+  Header prefix:  "[Aircraft Maintenance Manual AS-AMM-01-000 | Page 26]"
+  CR context:     "Page footer with aircraft type, manual title, document number, and company logo."
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=7 tokens, CR=12 tokens
+
+CHUNK #95 (page 65)
+  Header prefix:  "[B. Line maintenance | Page 65]"
+  CR context:     "This chunk details the aircraft's engine"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=6 tokens, CR=6 tokens
+
+CHUNK #223 (page 129)
+  Header prefix:  "[CONTENTS | Page 129]"
+  CR context:     "This chunk details the "Mooring" and "Return to Service" procedures, including general information and maintenance practices, within the broader "PARKING, MOORING, STORAGE AND RETURN TO SERVICE" chapter of the aircraft maintenance manual."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=4 tokens, CR=32 tokens
+
+SC10000AMM:
+------------------------------------------------------------------------
+
+CHUNK #328 (page 304)
+  Header prefix:  "[(4)  SIZE OF REPAIR AREA | Page 304]"
+  CR context:     "The chunk is located in Section 6.4, "Repair of Structure & Components," specifically within the subsection on "Fabric Repairs," detailing approved materials and repair procedures for fabric covering."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=8 tokens, CR=28 tokens
+
+CHUNK #57 (page 34)
+  Header prefix:  "[2.  EQUIPMENT LIST | Page 34]"
+  CR context:     "This chunk lists aircraft components and their maintenance references, and introduces purchase parts source lists,"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=6 tokens, CR=15 tokens
+
+CHUNK #12 (page 5)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 5]"
+  CR context:     "Document Header/Footer"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=2 tokens
+
+CHUNK #380 (page 326)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 326]"
+  CR context:     "This chunk is a step in the ""
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=8 tokens
+
+CHUNK #141 (page 121)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 121]"
+  CR context:     "Table 6.1.1, titled "CUB CRAFTERS SPORT CUB MAINTENANCE BREAKDOWN," specifies the required certifications for performing various line maintenance, repair, alteration, and inspection tasks on the CC11-100 aircraft."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=9 tokens, CR=27 tokens
+
+CHUNK #126 (page 118)
+  Header prefix:  "[CUB CRAFTERS SPORT CUB MAINTENANCE BREAKDOWN | Page 118]"
+  CR context:     "This chunk is a row"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=5 tokens
+
+CHUNK #115 (page 91)
+  Header prefix:  "[(2)  SCHEMATICS | Page 91]"
+  CR context:     "The chunk is a sub-section"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=5 tokens, CR=5 tokens
+
+CHUNK #72 (page 41)
+  Header prefix:  "[8.7 General Torque Values | Page 41]"
+  CR context:     "The chunk is a row in Table 5.2.1, "Torque Values (Friction drag torque already included)", which is part of Section 5.2.8, "RECOMMENDED FASTENER TORQUES", within Chapter 5, "AIRCRAFT MAINTENANCE MANUAL"."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=7 tokens, CR=30 tokens
+
+CHUNK #378 (page 326)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 326]"
+  CR context:     "This chunk is part of the "Operational/Functional Inspection Report" table found in Appendix A of the document, detailing specific"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=9 tokens, CR=19 tokens
+
+CHUNK #52 (page 32)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 32]"
+  CR context:     "This chunk details the main dimensions and areas of the aircraft's ailerons, flaps, and horizontal stabilizer, found within the general specifications section of the maintenance manual."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=9 tokens, CR=26 tokens
+
+CHUNK #347 (page 319)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 319]"
+  CR context:     "This chunk is part of the "Engine Group" section within the "Scheduled Inspection Report" in Appendix A, detailing specific inspection tasks for engine components."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=9 tokens, CR=24 tokens
+
+CHUNK #280 (page 249)
+  Header prefix:  "[CAUTION | Page 249]"
+  CR context:     "This chunk details the servicing procedures"
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=4 tokens, CR=6 tokens
+
+CHUNK #44 (page 26)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 26]"
+  CR context:     "This chunk provides general guidance on the manual's layout, definitions for warnings, cautions, and notes, and details on the revision service, located within the "Format & Guidance for the Use of This Manual" section of the Aircraft Maintenance Manual."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=9 tokens, CR=39 tokens
+
+CHUNK #303 (page 279)
+  Header prefix:  "[1 SPARK PLUGS | Page 279]"
+  CR context:     "Details for removal, inspection, and installation of spark plugs and magnetos within the powerplant ignition system."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=6 tokens, CR=16 tokens
+
+CHUNK #217 (page 177)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 177]"
+  CR context:     "Document header/footer."
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=2 tokens
+
+CHUNK #16 (page 5)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 5]"
+  CR context:     "This chunk is a record of"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=6 tokens
+
+CHUNK #15 (page 5)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 5]"
+  CR context:     "This chunk is a record of Revision F from the "List of Effective Pages" table, detailing"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=9 tokens, CR=16 tokens
+
+CHUNK #47 (page 29)
+  Header prefix:  "[1.  GENERAL | Page 29]"
+  CR context:     "This chunk is part"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=5 tokens, CR=4 tokens
+
+CHUNK #112 (page 88)
+  Header prefix:  "[5 ANTENNAS | Page 88]"
+  CR context:     "This chunk details various Garmin GPS and"
+  Verdict:        Header is MORE specific (names exact section)
+  Token overhead: Header=5 tokens, CR=7 tokens
+
+CHUNK #120 (page 107)
+  Header prefix:  "[CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL | Page 107]"
+  CR context:     "The chunk details rear seat installation and maintenance procedures, followed by the general introduction to structural repairs. It is located within Section 5.4."
+  Verdict:        CR is MORE verbose but may not be more specific
+  Token overhead: Header=9 tokens, CR=23 tokens
+
+
+Summary:
+  AS-AMM-01-000: Header more specific: 8, CR more specific: 11, Equivalent: 1
+  SC10000AMM: Header more specific: 9, CR more specific: 11, Equivalent: 0
+
+========================================================================
+RETRIEVAL FAILURE ANALYSIS
+========================================================================
+
+AS-AMM-01-000:
+  Total queries: 181
+  Naive hits @10: 69
+  CR hits @10: 75
+  Queries where naive hit but CR missed: 7
+  Queries where CR hit but naive missed: 13
+
+  Of the chunks that SHOULD have been retrieved (naive hit, CR miss):
+    CR context was Category A: 1 (14%) ← correct+specific
+    CR context was Category B: 0 (0%) ← vague context diluted signal
+    CR context was Category C: 0 (0%) ← wrong context pushed embedding away
+    CR context was Category D: 0 (0%) ← fabricated details misled embedding
+
+SC10000AMM:
+  Total queries: 164
+  Naive hits @10: 66
+  CR hits @10: 63
+  Queries where naive hit but CR missed: 7
+  Queries where CR hit but naive missed: 4
+
+  Of the chunks that SHOULD have been retrieved (naive hit, CR miss):
+    CR context was Category A: 0 (0%) ← correct+specific
+    CR context was Category B: 0 (0%) ← vague context diluted signal
+    CR context was Category C: 2 (29%) ← wrong context pushed embedding away
+    CR context was Category D: 0 (0%) ← fabricated details misled embedding

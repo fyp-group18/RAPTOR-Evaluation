@@ -1,0 +1,452 @@
+{
+  "EVAL-IMG-001": {
+    "full_context_aware": "24a058b2-b6f2-4c6d-9eff-bc4910edaaff",
+    "no_table_parent_child": "9b5c2ac0-30ed-4a22-95b0-2e07cf177173",
+    "no_header_propagation": "b5d79540-37d4-48f4-8953-755182d9b9ad",
+    "no_caption_folding": "f5d0d70f-4da0-4edd-a947-2d7e9cb10714",
+    "baseline_naive_chunking": "2f4d6583-7a83-40fc-976a-a62e47e3a635",
+    "semantic_chunking_baseline": "b6673f61-3b74-4047-9f58-d469aa4a36c5",
+    "flat_no_raptor": "e9c82fca-a3e2-40bd-9e44-69d05662f604",
+    "original_raptor_text_only": "0bc219d0-96e5-4ecc-ba88-f8462576a174"
+  },
+  "EVAL-IMG-002": {
+    "full_context_aware": "a1000e03-70b2-456f-8b42-685a0610ea60",
+    "no_table_parent_child": "a6110985-cfcb-4fda-b029-f878e334e032",
+    "no_header_propagation": "cdc3228b-1073-4e8a-906f-7968b93979f0",
+    "no_caption_folding": "90db7777-cdc1-4d6a-b31b-83320264b93f",
+    "baseline_naive_chunking": "dbda2760-3c23-415a-b4ba-4688741ec62c",
+    "semantic_chunking_baseline": "32a56e6a-e221-481a-a068-8144f3005373",
+    "flat_no_raptor": "ef9fc61a-4b0a-4a11-b39f-fe49f4f3c3d8",
+    "original_raptor_text_only": "d0b95a14-98c3-4101-82c3-745d57b89811"
+  },
+  "EVAL-IMG-003": {
+    "full_context_aware": "0941f3a4-cdfd-4668-a4bc-09199e55eba8",
+    "no_table_parent_child": "6cdc4b4d-4584-49bf-9b44-e1c468986513",
+    "no_header_propagation": "49f70d1d-152b-4869-9de9-ae47b3826b97",
+    "no_caption_folding": "8081bc50-02b4-41ce-8bc0-81989d5e5a4c",
+    "baseline_naive_chunking": "5cea0dbd-f611-4134-ae63-4a1cf6db7fa2",
+    "semantic_chunking_baseline": "9a570123-ea7c-47ca-800f-13388434aaca",
+    "flat_no_raptor": "9761e357-4db4-4e67-90e1-69d6e62fa78e",
+    "original_raptor_text_only": "e9b9a332-c0b3-49f0-a8e7-ba0bb6a56a3d"
+  },
+  "EVAL-IMG-004": {
+    "full_context_aware": "8a6e58f1-520c-4ae9-8c59-50244528073a",
+    "no_table_parent_child": "4e6290b3-4f98-4f4d-b213-ce97ca53503b",
+    "no_header_propagation": "4e0ed611-d5b0-4daa-8172-a2f3e417c34a",
+    "no_caption_folding": "c9d3dbf9-6b08-4bb4-8c05-956a074dcd36",
+    "baseline_naive_chunking": "bafabd84-bb02-465e-a6fb-079d1a2d7bbd",
+    "semantic_chunking_baseline": "73232bb1-759e-4c2c-a33e-969dcc35d7e6",
+    "flat_no_raptor": "3672816a-b5fc-466f-84f5-23a1ac955871",
+    "original_raptor_text_only": "fbda0fc9-2a18-43fc-a946-239a3bb05235"
+  },
+  "EVAL-IMG-005": {
+    "full_context_aware": "7a964647-7b73-4677-a3fb-6c1f8a053903",
+    "no_table_parent_child": "05b2365b-7a85-4596-adcc-68b5bc5becf4",
+    "no_header_propagation": "c7690ddd-9750-481e-958f-90f067585776",
+    "no_caption_folding": "ca30203d-d10c-4204-9d44-0a540527eb74",
+    "baseline_naive_chunking": "51b931f4-7c28-41aa-9d3a-490a95edebec",
+    "semantic_chunking_baseline": "227ce32f-f2b0-47ef-aa3e-174539bca9a5",
+    "flat_no_raptor": "5d1d9737-c833-4c48-9497-8d3d82b1f874",
+    "original_raptor_text_only": "afe5923b-a464-4020-ac3a-f8b51e456b1d"
+  },
+  "EVAL-IMG-006": {
+    "full_context_aware": "351e2099-705b-400f-8009-0b854103ad0d",
+    "no_table_parent_child": "9824c319-e7ce-456f-ba53-c5732dd2b391",
+    "no_header_propagation": "88a9340a-7637-4f42-8c25-252e8609db50",
+    "no_caption_folding": "a731040b-560f-423f-8eed-1cff06ee5770",
+    "baseline_naive_chunking": "861ae02b-d6fb-49a0-8f8f-0300d3e2b9e9",
+    "semantic_chunking_baseline": "1f62b17b-7081-465c-b097-66799fd3598d",
+    "flat_no_raptor": "ad5d8d40-75e6-445c-9961-07cbcb032636",
+    "original_raptor_text_only": "bb5da8f4-40ad-43b6-b073-d9114cbf4b9a"
+  },
+  "EVAL-IMG-007": {
+    "full_context_aware": "ed1f2126-9fdc-448d-ae6f-792d7ab274b5",
+    "no_table_parent_child": "4e2502b4-1266-433e-bffa-3d03b46ee0ca",
+    "no_header_propagation": "d2a8e9db-fd0f-41cf-ae38-69a00f64d2d1",
+    "no_caption_folding": "0573d70c-7b4f-4b6a-a7bb-4ebce1676cab",
+    "baseline_naive_chunking": "890ffb2b-f693-4b5c-96df-f0e6d13939a5",
+    "semantic_chunking_baseline": "a7a303cb-ad1b-4812-813e-2d442313380d",
+    "flat_no_raptor": "893a9165-47ff-40bc-ae47-c9f9976f57ed",
+    "original_raptor_text_only": "cf0e8064-d322-46cc-8109-4e9a05f61b41"
+  },
+  "EVAL-IMG-008": {
+    "full_context_aware": "15dfb243-6ec4-49e2-82e7-ae32ff3343b3",
+    "no_table_parent_child": "f09f9115-d64b-494a-9a9e-1850de9d1963",
+    "no_header_propagation": "070e06fa-2c23-4974-aab1-fc97d5279dda",
+    "no_caption_folding": "56804239-2cce-4e78-8907-d1c3f456009f",
+    "baseline_naive_chunking": "e48bfbb4-bb03-45a7-af6f-11a0207d95d0",
+    "semantic_chunking_baseline": "223c26ea-b800-42b4-82f4-bf02cac114b0",
+    "flat_no_raptor": "11d9037c-941d-49e5-9d4a-baf852c8553f",
+    "original_raptor_text_only": "a176eb19-3b54-40a8-8a4e-44db1c5efbcc"
+  },
+  "EVAL-IMG-009": {
+    "full_context_aware": "3c7838d4-235a-40c1-9f08-85cd0ccdedf7",
+    "no_table_parent_child": "f514d2b3-93d7-4e4f-bc67-2cf46c610f74",
+    "no_header_propagation": "c905e176-28e2-4edf-89b7-14fc907ba866",
+    "no_caption_folding": "844d26c4-ed45-4ceb-966f-5d6a5a0ed36f",
+    "baseline_naive_chunking": "5d762f62-394c-46e4-8723-1a804228357d",
+    "semantic_chunking_baseline": "783ea132-8b3b-4753-8b02-2a39e4fd5973",
+    "flat_no_raptor": "1e14f49d-2dd5-491b-b903-bf5fdb287ddd",
+    "original_raptor_text_only": "7f28055d-c2c0-4cc9-a685-e05e4053ed88"
+  },
+  "EVAL-IMG-010": {
+    "full_context_aware": "ad99b4b7-dbaf-4bed-af03-4a0924d0e6b4",
+    "no_table_parent_child": "342c2f92-84f0-4aa0-8392-144c339f22d1",
+    "no_header_propagation": "19815e97-7505-4d1f-a774-8f07be9fc4ed",
+    "no_caption_folding": "f4008aab-4995-4031-b227-6c70a6933966",
+    "baseline_naive_chunking": "30e01a43-b315-47cb-a07d-b44c0f038b97",
+    "semantic_chunking_baseline": "bb5d6276-a24e-44d7-a7aa-14b294aeec3a",
+    "flat_no_raptor": "fb2a60a7-e9a5-4012-ac7c-c847670d716a",
+    "original_raptor_text_only": "3b0c3287-a69c-459d-bbaa-b4d9125eb65f"
+  },
+  "EVAL-IMG-011": {
+    "full_context_aware": "f4057c17-3b20-4c5e-b2a5-918b2bd863da",
+    "no_table_parent_child": "8cbbe578-b89e-4469-9db9-6d63c8f97835",
+    "no_header_propagation": "fc3d3907-41a0-4376-a5c8-a42188726ea4",
+    "no_caption_folding": "f0066cd7-88fb-4324-b72a-29bef392543d",
+    "baseline_naive_chunking": "be6dd45a-80f7-4b91-b1cf-08e9568f3bf5",
+    "semantic_chunking_baseline": "f474108e-d0a6-4604-aa76-e93d82dc05b4",
+    "flat_no_raptor": "23853017-149c-46bf-a109-d21d2429af6b",
+    "original_raptor_text_only": "8005f47b-a7fb-4410-bf34-1a6a5d824bab"
+  },
+  "EVAL-IMG-012": {
+    "full_context_aware": "e06a11d8-80e7-49ae-944e-19adfd85ac54",
+    "no_table_parent_child": "731614d9-c105-49fa-ae22-14a5a1401f30",
+    "no_header_propagation": "32d0531f-e9b2-4ff5-bb46-180dda0a1351",
+    "no_caption_folding": "1406b4dd-d9d6-4a71-b382-d595b9680e10",
+    "baseline_naive_chunking": "2f4d6583-7a83-40fc-976a-a62e47e3a635",
+    "semantic_chunking_baseline": "54a54219-8fe5-4f3a-987f-f74e8c004801",
+    "flat_no_raptor": "12438a15-4dd9-4ebf-a08f-a45c1459a8ec",
+    "original_raptor_text_only": "0bc219d0-96e5-4ecc-ba88-f8462576a174"
+  },
+  "EVAL-IMG-013": {
+    "full_context_aware": "1783b8e6-f5e1-44f6-a443-723f42405275",
+    "no_table_parent_child": "df2aa3eb-9fd3-42e7-a4b8-d750fc87ea1b",
+    "no_header_propagation": "e5d9f871-8490-46f7-bc24-a4b719e1281c",
+    "no_caption_folding": "2f5617d7-6ace-4a37-a737-3e85397fe9fc",
+    "baseline_naive_chunking": "1628e79c-4052-4725-b58d-4ab403b90e30",
+    "semantic_chunking_baseline": "badc7c67-0571-4888-958a-221503b073d8",
+    "flat_no_raptor": "e078cb13-2cbc-487c-802d-2249172bb539",
+    "original_raptor_text_only": "a2572955-ece5-48b9-9870-c9654a863121"
+  },
+  "EVAL-IMG-014": {
+    "full_context_aware": "d4b7b59d-0fe8-4730-a12b-fdf2f0765094",
+    "no_table_parent_child": "01c0a9d2-9041-4f75-bd3b-d5925875970b",
+    "no_header_propagation": "55c65e72-3551-41e9-b4d9-0551d1a0e3b8",
+    "no_caption_folding": "2e8bca1d-37e9-4620-81af-9c88aaf35649",
+    "baseline_naive_chunking": "70a7f3a4-4f25-4795-8524-1d56d1e04345",
+    "semantic_chunking_baseline": "9bc9e851-14fc-4ae3-b838-b332523dabcd",
+    "flat_no_raptor": "48cc2a32-8d32-434b-8dfc-ebb9e9df0e9e",
+    "original_raptor_text_only": "32863b3d-08f7-4150-968a-07919f3d2727"
+  },
+  "EVAL-IMG-015": {
+    "full_context_aware": "9fdc4990-858d-4ed3-86fa-78d0b740f359",
+    "no_table_parent_child": "1b26a4d8-113a-4f47-a891-83f677eff8f4",
+    "no_header_propagation": "40855d6b-209a-4086-ac99-a55c931ed8de",
+    "no_caption_folding": "a990172d-f93d-418a-a6b2-20b172e631e7",
+    "baseline_naive_chunking": "a60ee8ac-fcc9-446b-a6a4-8417354041cf",
+    "semantic_chunking_baseline": "a2ee99d3-b942-4a9c-a18b-f66ae30864a7",
+    "flat_no_raptor": "2d2e5131-b603-4672-8f0e-0df695714250",
+    "original_raptor_text_only": "ed26198a-bd27-49c6-9b3a-6701ac124ffa"
+  },
+  "EVAL-IMG-016": {
+    "full_context_aware": "4f5745b9-73fa-4443-a68e-9e118e5b1fce",
+    "no_table_parent_child": "1dda0f97-5a3b-48e3-b0d1-3313aa840f81",
+    "no_header_propagation": "0692f856-1cd3-4031-b33b-279069dd42f7",
+    "no_caption_folding": "cb0d32f3-a203-411a-93d0-904611cef285",
+    "baseline_naive_chunking": "d32700ae-f9cb-4ebe-9f0d-e668873e4632",
+    "semantic_chunking_baseline": "c73aa59a-f262-48e8-8557-b745230ca33b",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "95e211bb-43fa-4a29-9130-c870e066cd02"
+  },
+  "EVAL-IMG-017": {
+    "full_context_aware": "ebe63834-3145-477c-8bdd-43f5b42df6ce",
+    "no_table_parent_child": "ee48b341-8f85-4b44-bb99-0547ff5ab880",
+    "no_header_propagation": "2d9c36f4-b921-4faf-901c-83975f1d0d1d",
+    "no_caption_folding": "7cee3a8f-9806-4e37-a305-a4f31d176889",
+    "baseline_naive_chunking": "12e8e919-50fd-45b3-9ec4-c95c2bf3e5ad",
+    "semantic_chunking_baseline": "fe45708e-3813-47e9-8e6c-c35b7c0652c9",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "322b0f77-51a2-4660-98fe-c136a90e106d"
+  },
+  "EVAL-IMG-018": {
+    "full_context_aware": "00a131f3-d357-47c9-b7f0-398cc82ba085",
+    "no_table_parent_child": "35a9206a-5cf7-4778-bf6b-7c8b20183be4",
+    "no_header_propagation": "9f06f350-1b64-48f0-b30d-d7298698eaa4",
+    "no_caption_folding": "becfc0b0-9c2f-45e2-a8e5-b3d9d6b838e0",
+    "baseline_naive_chunking": "d6bd3900-5fe7-43e4-8698-ca205e79da0d",
+    "semantic_chunking_baseline": "a41943eb-79ab-4ebb-919f-1de6d5db5b8b",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "b10e4ae3-6eed-4517-9c95-af277ac870a2"
+  },
+  "EVAL-IMG-019": {
+    "full_context_aware": "28d1e941-d856-4904-99a7-8461f062730c",
+    "no_table_parent_child": "7576c8b7-bb6c-4e84-8e80-3432b2fc9664",
+    "no_header_propagation": "7dd7a22b-c42b-43ac-9a4b-a3943445b283",
+    "no_caption_folding": "2377eaaa-399d-4681-9649-3cc571c40a96",
+    "baseline_naive_chunking": "18406377-58ae-4d96-bad1-9f4272fee126",
+    "semantic_chunking_baseline": "141200eb-c6d8-4fef-9a6d-b5063d0c9b3b",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "116228bc-6dea-4112-bbd9-20ee7a8c936d"
+  },
+  "EVAL-IMG-020": {
+    "full_context_aware": "3bbd9ee3-7578-4253-b427-9f07ab77cfab",
+    "no_table_parent_child": "7e316d3f-0e53-49d1-b12e-aad244828c13",
+    "no_header_propagation": "d7e08358-2cdd-4b5a-8214-3617e2a1c9fd",
+    "no_caption_folding": "d047e185-c89b-45df-bc63-9883340273ae",
+    "baseline_naive_chunking": "94978145-50b3-46fa-98d7-a2c6f32c1078",
+    "semantic_chunking_baseline": "b846066c-6b58-4ef8-a17d-fc5b9354d4d9",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "52ad8266-7eb7-4139-97a8-3d00deedd042"
+  },
+  "EVAL-IMG-021": {
+    "full_context_aware": "7eb6c65c-2358-4ec2-af6d-9ca860517c25",
+    "no_table_parent_child": "a805f95e-a5fd-41c8-99c9-fe77496d54ee",
+    "no_header_propagation": "99033e88-e2e5-47fb-b94a-f8f5ed547a9a",
+    "no_caption_folding": "e48432d8-ab32-4e35-bd7a-64c86c478ed9",
+    "baseline_naive_chunking": "a6766a66-0ca1-46aa-8227-edbed6b2f4a8",
+    "semantic_chunking_baseline": "d17483ae-d9cf-42e3-9e41-760837dda6dc",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "7992a0ff-708e-42e6-a55e-34e21c61c0f5"
+  },
+  "EVAL-IMG-022": {
+    "full_context_aware": "6508cacd-bdf3-4ad9-8376-b8915f14c35f",
+    "no_table_parent_child": "c83c9cf1-f950-45c0-a5f0-8c9bea3f5edf",
+    "no_header_propagation": "b5a95459-b8a8-4760-b471-109cf8a62804",
+    "no_caption_folding": "4f183794-f093-4f0a-b1db-ef8815a28a57",
+    "baseline_naive_chunking": "a6766a66-0ca1-46aa-8227-edbed6b2f4a8",
+    "semantic_chunking_baseline": "f4c4c40a-61c0-4f02-91eb-e3c52c4021ba",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "7992a0ff-708e-42e6-a55e-34e21c61c0f5"
+  },
+  "EVAL-IMG-023": {
+    "full_context_aware": "69813b28-a7c0-4d4c-84db-dfb1127e8ab7",
+    "no_table_parent_child": "42a98c66-460d-478d-8363-ae6b26077241",
+    "no_header_propagation": "2f9ce8fa-46d7-4b1b-a2a8-0f54ef46a6cb",
+    "no_caption_folding": "6649682a-0112-4c6e-8bc4-30e4024a3f50",
+    "baseline_naive_chunking": "0f246d03-51a4-473f-9cec-cef9a5100bd4",
+    "semantic_chunking_baseline": "24d6f566-17a8-435a-ab0e-a9ce106f6af6",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "2d4a2d10-436a-488c-8844-16c3df7f729f"
+  },
+  "EVAL-IMG-024": {
+    "full_context_aware": "91ebffe2-0bad-4bcb-9a08-45d01540e64a",
+    "no_table_parent_child": "726aaae7-5b0e-4d45-81d5-d4fed495bafc",
+    "no_header_propagation": "0272de17-d5ff-493f-ab45-51d5de5476ab",
+    "no_caption_folding": "ce16ee50-7f23-461e-9b2f-3e92b57d6c5e",
+    "baseline_naive_chunking": "6dd15c4b-3dd8-49fd-94cd-c9cf1d699f88",
+    "semantic_chunking_baseline": "08cfe4bd-9268-490a-a3fc-bb7c65274bab",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "223b8b12-59ce-4d24-8b75-9218dbb56a25"
+  },
+  "EVAL-IMG-025": {
+    "full_context_aware": "fb582213-1515-439e-9ab9-d94b32b4b53b",
+    "no_table_parent_child": "33afb99b-df08-47db-91ea-19fcc9badf23",
+    "no_header_propagation": "275efb81-0855-4c3f-b4b1-4a1ad7ca296b",
+    "no_caption_folding": "cf2d6ecb-a71b-4c0e-bec7-5a77c68c33d1",
+    "baseline_naive_chunking": "83f2ee32-cb78-4c9d-ba3b-f8cc1730c645",
+    "semantic_chunking_baseline": "c556f1fe-b2c2-40ba-8c2c-0f3ad9e64d9b",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "78e8509d-8576-4f9a-8f75-6b722ee0d39b"
+  },
+  "EVAL-IMG-026": {
+    "full_context_aware": "09860c5d-6e5c-4a43-a761-cb0567983da7",
+    "no_table_parent_child": "831cf391-d292-4c66-83b7-a810b2e12c1a",
+    "no_header_propagation": "34343b1f-225b-478f-bf8f-334e0197aead",
+    "no_caption_folding": "a3ab4a60-79ec-45ef-84d5-57fe644da8f1",
+    "baseline_naive_chunking": "7b67330d-ae20-4cfb-896b-37d458fa148c",
+    "semantic_chunking_baseline": "bb75e725-b23b-4631-849f-a2dc5bc31ee0",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "47efe391-9f8c-4cc5-b3c9-151745d6e129"
+  },
+  "EVAL-IMG-027": {
+    "full_context_aware": "67280e4a-90ae-4ab0-a400-93c329915323",
+    "no_table_parent_child": "a313e0a8-40f7-40a4-8ee6-2bde7723b9b7",
+    "no_header_propagation": "1ae576cd-4df7-4d24-9be3-8419a5b25fad",
+    "no_caption_folding": "f2c8c4d2-72a5-4bc7-8f61-2439e71a64f2",
+    "baseline_naive_chunking": "4b21b1e8-032c-4cbd-b069-b06d53e853d7",
+    "semantic_chunking_baseline": "da178f3c-9ec0-42e9-b3ef-2f9282cefb82",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "b808c2ee-b246-4753-af6b-546ef71ec8ad"
+  },
+  "EVAL-IMG-028": {
+    "full_context_aware": "939445bb-3a49-4cbe-9185-44d553954299",
+    "no_table_parent_child": "cd2764a5-a1e1-45c1-b6ea-d0170f13cf2a",
+    "no_header_propagation": "f9d0a513-4e8b-44c7-82bc-7035e550398b",
+    "no_caption_folding": "b540e8b2-f8f7-4040-82a7-659c810c2dcd",
+    "baseline_naive_chunking": "b1226c16-76da-417a-9a98-fbee32b0011d",
+    "semantic_chunking_baseline": "f82c99c0-6f7b-4e41-892f-cae8289928b7",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "ee984291-d703-4bda-9938-eb52134e49f3"
+  },
+  "EVAL-IMG-029": {
+    "full_context_aware": "fcc0b455-4b11-400b-a9e5-e82148be02d3",
+    "no_table_parent_child": "70a5ca50-8806-4a18-9ad8-1116aae39648",
+    "no_header_propagation": "0c07eff9-9f2a-45aa-b095-ac4d0d92861a",
+    "no_caption_folding": "b3e21cb3-ca30-4e62-86e7-79f792d0cd79",
+    "baseline_naive_chunking": "9c8f8d5b-34e7-48d0-8abc-764fc3aeabf3",
+    "semantic_chunking_baseline": "8df266e2-d7b7-403a-98ee-fcad8c14629c",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "12492d3e-d5c8-4a5e-8102-f10db0c4de7e"
+  },
+  "EVAL-IMG-030": {
+    "full_context_aware": "7fb53d1e-8c3a-442b-968e-9951f86cd1e2",
+    "no_table_parent_child": "60977a2b-80f1-45cc-a1f8-388a35739db7",
+    "no_header_propagation": "387aa11a-3a21-4477-b555-1e5eaed6a466",
+    "no_caption_folding": "8cd9ccd0-ab56-4c14-a7f2-1e83e09e50b9",
+    "baseline_naive_chunking": "d2614df4-a5f2-4563-9bf7-2b158ea882ad",
+    "semantic_chunking_baseline": "72c9972c-5f9d-413e-8f68-929906254495",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "e950cb78-0f5e-41fd-877e-11e3e9ee7403"
+  },
+  "EVAL-IMG-031": {
+    "full_context_aware": "1b9c09ff-695c-44cb-ae53-4894627184d5",
+    "no_table_parent_child": "694c8d6e-9bcf-411f-8240-c04eb1c65390",
+    "no_header_propagation": "1e6188b0-202b-4295-a5f8-65ea56ed02fc",
+    "no_caption_folding": "fb9b81e4-c941-4186-8ef6-cc888ed9788a",
+    "baseline_naive_chunking": "99ed2cf0-075e-419c-9fc0-da2253b0655c",
+    "semantic_chunking_baseline": "a6766c5d-7492-4a21-aaa4-a0695f37bc91",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "64572109-1a51-4cc1-a006-20585a84f945"
+  },
+  "EVAL-IMG-032": {
+    "full_context_aware": "f08fb02e-fadd-4797-9163-36016a8296b4",
+    "no_table_parent_child": "5adb45bc-7dbc-413f-99a0-a0ff5bc04f7c",
+    "no_header_propagation": "f17f33a4-cf33-4501-84b6-cdf5195f6a25",
+    "no_caption_folding": "5eeb6441-ac7f-4559-a8c1-7b174bf1bdd3",
+    "baseline_naive_chunking": "909c4e9f-01db-4d51-9c39-dea0121c3f1d",
+    "semantic_chunking_baseline": "996e3181-2ef0-4a51-a33f-db7a11c1ca5f",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "91162fbb-4cc1-4311-bf72-5533a04aab8d"
+  },
+  "EVAL-IMG-033": {
+    "full_context_aware": "32aedef7-f92c-462e-be8d-61f4168f2b93",
+    "no_table_parent_child": "439d1859-2ed6-44b7-9265-28d2a578e26b",
+    "no_header_propagation": "f41ea3a7-e76a-4aab-9007-f3aea40b4015",
+    "no_caption_folding": "3cabce1a-e171-47f3-8e63-61ea108c6d9b",
+    "baseline_naive_chunking": "b713dda7-2bf5-4feb-914b-efc5c5053a2f",
+    "semantic_chunking_baseline": "5989e256-9568-4dac-a339-73a437ec059e",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "5b40df1a-2ff1-4a6a-9f4e-c326a4fbb6a0"
+  },
+  "EVAL-IMG-034": {
+    "full_context_aware": "f8306742-89e9-4519-9222-885f75161c5d",
+    "no_table_parent_child": "92d58e25-ae62-4eb6-8d16-b0cb2bf09a33",
+    "no_header_propagation": "ae7da53e-925b-475a-90ab-f92e73f7b075",
+    "no_caption_folding": "79ceb9ae-3e13-43b4-970d-15e7144080e8",
+    "baseline_naive_chunking": "ef6d3a4a-f319-41f8-b1c0-5774c1991e6f",
+    "semantic_chunking_baseline": "450a2263-67f9-451e-864e-a0e7bf6612b6",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "a2b9c81c-082f-4c26-8ad7-3cd004b07632"
+  },
+  "EVAL-IMG-035": {
+    "full_context_aware": "dfefadaf-7a30-414c-af12-98f0ba572596",
+    "no_table_parent_child": "f27c503e-3a60-401e-8831-5fdc5b77aa43",
+    "no_header_propagation": "074c00fc-f497-4f63-bf8a-34af04a52979",
+    "no_caption_folding": "be78b5ba-653a-4a71-8e9f-34bc34d43ed1",
+    "baseline_naive_chunking": "944dfd64-782e-4889-ab9f-c86410604abb",
+    "semantic_chunking_baseline": "bd6ff3bc-4c10-40c0-ba8f-05e6c287d4ad",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "1e51e4cf-c759-46ff-ac28-dd53090e7bda"
+  },
+  "EVAL-IMG-036": {
+    "full_context_aware": "5898bfd5-8832-438f-8abf-3dfe51aa8eb2",
+    "no_table_parent_child": "3d964e1c-7e31-4aeb-a5ce-1588a1d6dc5e",
+    "no_header_propagation": "dbaca605-ee38-431f-a8f2-33fadfef2418",
+    "no_caption_folding": "7faad273-db57-45da-bd24-79e046a7e0d1",
+    "baseline_naive_chunking": "6b347762-7acf-4513-a379-d5662d15905e",
+    "semantic_chunking_baseline": "0a120fed-1fec-45b8-9df1-0684ce1efb2f",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "6609ffd6-33eb-4cba-8943-f6f2be2bea55"
+  },
+  "EVAL-IMG-037": {
+    "full_context_aware": "51cf6387-a0ad-49db-adc6-ddfbb1665df1",
+    "no_table_parent_child": "49353a64-7a25-4e2b-b752-ea4599b73ac7",
+    "no_header_propagation": "7c2cebaa-77fc-40a3-b9b3-160579e98239",
+    "no_caption_folding": "1fd4dcf2-fa23-485e-b65a-56317521e158",
+    "baseline_naive_chunking": "6a1faf31-11bf-4ed8-8a84-05d90646a898",
+    "semantic_chunking_baseline": "0dbeb287-8316-4993-87f3-cd8fbb6728c3",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "77eeabff-2e0e-45ed-b385-b26456f357a5"
+  },
+  "EVAL-IMG-038": {
+    "full_context_aware": "ec95c227-d340-4b59-a8d8-c5a2a2d558eb",
+    "no_table_parent_child": "37261dab-4f18-44ab-8953-64d4d7717f25",
+    "no_header_propagation": "a92ecb36-d169-4575-86ff-7323540675f7",
+    "no_caption_folding": "a64e85b3-5422-48a3-9558-9c6890626697",
+    "baseline_naive_chunking": "e933616c-d975-4bda-ad46-01d8ba6f5a01",
+    "semantic_chunking_baseline": "8c97c418-8ceb-49d8-960b-a47ece6a7bf6",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "e5f36d85-77dd-4b67-a642-126a2604f5d2"
+  },
+  "EVAL-IMG-039": {
+    "full_context_aware": "0ba77bf5-fa9a-43d1-8bb2-9429dc40dbe4",
+    "no_table_parent_child": "01c824cd-f6d7-4e4f-add8-9b70cefc32e7",
+    "no_header_propagation": "7628b4fa-1dc0-462a-ab7b-992f8e865fb4",
+    "no_caption_folding": "4a5b710b-8f95-4d57-a643-36e2a54853a7",
+    "baseline_naive_chunking": "68540d58-99d6-49b4-8344-e18d818d72c2",
+    "semantic_chunking_baseline": "2068761d-fe1d-4650-af0c-322d2154e323",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "99c1e099-ff64-432e-bcd2-95774dbd6f18"
+  },
+  "EVAL-IMG-040": {
+    "full_context_aware": "314a9504-f62c-4e6b-b311-90ad7c1c3656",
+    "no_table_parent_child": "7c60edd9-659b-45df-b52d-f5b18622f41d",
+    "no_header_propagation": "72584a9f-5926-4f45-b8d8-7ac71512389e",
+    "no_caption_folding": "1a2e2f11-de84-49ce-ba1c-47d1b6988eda",
+    "baseline_naive_chunking": "777c2eeb-d9e6-4be6-83ca-7cad6b74681d",
+    "semantic_chunking_baseline": "72b0777d-e35d-438b-93c5-225c0cf802d4",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "ceebe802-8aef-462e-aeb1-628077bc89b4"
+  },
+  "EVAL-IMG-041": {
+    "full_context_aware": "8794361d-d4ae-441d-928e-4200c238ba95",
+    "no_table_parent_child": "b5d15dd4-c603-4de3-9a47-22e27d3a2bca",
+    "no_header_propagation": "de3b080d-d4fa-4c01-8757-18c8ff52c62e",
+    "no_caption_folding": "547e1b46-4d3c-468a-9b08-e8f677ac4fd9",
+    "baseline_naive_chunking": "a56367fd-89a6-4a3c-8fab-96b797e59ef5",
+    "semantic_chunking_baseline": "a378f2be-38d6-4390-869a-f0b81bab0b77",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "b91da79d-58b1-436d-a97b-d75ed68afd3b"
+  },
+  "EVAL-IMG-042": {
+    "full_context_aware": "819d7e20-8c16-4ed1-b6af-462ed2c3217e",
+    "no_table_parent_child": "5c0ea7ab-88ce-4006-9135-5dae6d81f7fd",
+    "no_header_propagation": "76c620e9-97c8-4fff-816f-73125c617e04",
+    "no_caption_folding": "737b0180-1a98-466f-ba72-29a687adda79",
+    "baseline_naive_chunking": "c09ffc7f-0b42-4002-8998-62f39e9d43bc",
+    "semantic_chunking_baseline": "3a94251c-ace5-4bf8-96c1-6791510f72a4",
+    "flat_no_raptor": null,
+    "original_raptor_text_only": "bdc85be9-5a0a-4c5f-a01c-1bd71ccb2cff"
+  },
+  "EVAL-IMG-043": {
+    "full_context_aware": "bbf724fc-fa51-4865-8ff7-fa5c2154e0f8",
+    "no_table_parent_child": "af8f76a4-824a-4676-9739-17c80a504424",
+    "no_header_propagation": "5575467c-6c9e-4f17-9a7f-c0c769a536eb",
+    "no_caption_folding": "f23a7348-ddd1-41ed-86bf-8684f875af90",
+    "baseline_naive_chunking": "b2d31daf-331d-4cb2-b4c3-bb03a1013002",
+    "semantic_chunking_baseline": "adfc52af-841a-4e37-a27c-cfc037191c7f",
+    "flat_no_raptor": "e4c3a0a3-a0c8-40ca-9902-f540b5b31e84",
+    "original_raptor_text_only": "d005b9fe-4144-41fc-a81b-4036d5537df3"
+  },
+  "EVAL-IMG-044": {
+    "full_context_aware": "a7470beb-ab20-4d07-a689-ef394ecb5dd5",
+    "no_table_parent_child": "6c910102-d999-4cc9-94e7-4c4bcf1a5463",
+    "no_header_propagation": "213455a6-5f8b-4555-9fa3-bee374d312ad",
+    "no_caption_folding": "b2f2d49b-35b9-42e8-9d6f-9ac60630d29a",
+    "baseline_naive_chunking": "5c6b3951-ee55-4577-b79c-65ea0fb55b5b",
+    "semantic_chunking_baseline": "9b3d5b8d-8c2f-4537-8d9b-2b084b226a59",
+    "flat_no_raptor": "8cb4ace5-3f92-4e30-b472-efac899a1ff6",
+    "original_raptor_text_only": "d1f2bef0-b1d8-40aa-b9ca-e28ee36131a0"
+  },
+  "EVAL-IMG-045": {
+    "full_context_aware": "3736f110-b623-4469-9af5-02b535e10582",
+    "no_table_parent_child": "13969602-7178-46b9-b7e8-9790ddf762b2",
+    "no_header_propagation": "4dd399c2-43dd-41b0-bec1-cb1def6cc413",
+    "no_caption_folding": "891da687-e939-4772-b8bc-4fd05bca231b",
+    "baseline_naive_chunking": "fc41543f-7496-4a52-8d52-0799fa72a065",
+    "semantic_chunking_baseline": "53d0ae6e-fc52-4ed0-a476-a324b5d6713a",
+    "flat_no_raptor": "f6a48b1d-58ac-460e-b132-a60ed3c3fadf",
+    "original_raptor_text_only": "4f99de99-8663-457c-8573-3660d0c94bb2"
+  }
+}

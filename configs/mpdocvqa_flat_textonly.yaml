@@ -1,0 +1,13 @@
+# MP-DocVQA Row A: OCR text baseline
+# Isolates the raw text-only RAG performance with no multimodal, no tree.
+# External comparison: RAG-VT5 base achieves 58.23% ANLS (López et al., 2025)
+benchmark: mpdocvqa
+doc_processing: "ocr_text_only"
+retrieval_mode: "flat"
+build_raptor_tree: false
+use_table_parent_child: false
+use_retrieval_expansion: false
+use_multimodal_embed: false
+retrieval_scope: "per_document"
+top_k: 5
+description: "MP-DocVQA Row A: OCR text, flat retrieval, no tree"

@@ -1,0 +1,15 @@
+# Evaluation-only dependencies (not required by main backend)
+python-Levenshtein>=0.25.0
+pandas>=2.0.0
+pyyaml>=6.0
+tabulate>=0.9.0
+numpy>=1.26.0
+langchain-text-splitters>=0.2.0
+# SSTQA Excel table parsing
+openpyxl>=3.1.0
+# MP-DocVQA dataset loading
+datasets>=2.18.0
+Pillow>=10.0.0
+# Ingestion orchestrator
+google-cloud-storage>=2.14.0
+docling>=2.0.0

@@ -1,0 +1,150 @@
+{
+  "AS-AMM-01-000": {
+    "total_chunks": 858,
+    "category_A": 72,
+    "category_B": 48,
+    "category_C": 155,
+    "category_D": 3,
+    "table_chunks": {
+      "A": 35,
+      "B": 16,
+      "C": 54,
+      "D": 0
+    },
+    "prose_chunks": {
+      "A": 37,
+      "B": 32,
+      "C": 101,
+      "D": 3
+    },
+    "failure_analysis": {
+      "total_queries": 181,
+      "naive_hits_at_10": 69,
+      "cr_hits_at_10": 75,
+      "naive_hit_cr_miss": 7,
+      "cr_hit_naive_miss": 13,
+      "missed_chunk_categories": {
+        "?": 6,
+        "A": 1
+      },
+      "missed_details": [
+        {
+          "query_id": "EVAL-007",
+          "query_text": "Engine runs but feels like it's only hitting on 3 cylinders. Checked mags, drops about 250 RPM on th",
+          "gt_chunk_id": "c6f94879-c01d-4c59-ac66-d66880da4f7f",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-084",
+          "query_text": "Replaced the oil temp sender on the WT9 last week. Now the SkyView shows oil temp pegged high even w",
+          "gt_chunk_id": "bed02fb2-4434-4669-85b2-65a985a37132",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-060",
+          "query_text": "There's a wet spot under the fuel line fitting where it connects to the selector valve. Smell confir",
+          "gt_chunk_id": "e831954c-2d64-48c9-b90d-eda66822a7b1",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-089",
+          "query_text": "Replaced the fuel strainer and gaskets. Now there's a weep at the fuel line fitting below the firewa",
+          "gt_chunk_id": "e831954c-2d64-48c9-b90d-eda66822a7b1",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-128",
+          "query_text": "Replaced all the ignition leads on the Rotax. Engine fires up fine but at cruise it drops 100 RPM fo",
+          "gt_chunk_id": "c6f94879-c01d-4c59-ac66-d66880da4f7f",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-047",
+          "query_text": "Fuel cap area is wet with avgas after every flight. Not dripping but definitely seeping around the c",
+          "gt_chunk_id": "e831954c-2d64-48c9-b90d-eda66822a7b1",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-137",
+          "query_text": "Fuel gauge on the WT9 left tank shows full when I know it's half empty. Right tank reads correctly. ",
+          "gt_chunk_id": "febc330d-c3ca-4400-88ea-abee1f4b4322",
+          "cr_context_category": "A"
+        }
+      ]
+    }
+  },
+  "SC10000AMM": {
+    "total_chunks": 396,
+    "category_A": 28,
+    "category_B": 31,
+    "category_C": 45,
+    "category_D": 6,
+    "table_chunks": {
+      "A": 16,
+      "B": 14,
+      "C": 19,
+      "D": 5
+    },
+    "prose_chunks": {
+      "A": 12,
+      "B": 17,
+      "C": 26,
+      "D": 1
+    },
+    "failure_analysis": {
+      "total_queries": 164,
+      "naive_hits_at_10": 66,
+      "cr_hits_at_10": 63,
+      "naive_hit_cr_miss": 7,
+      "cr_hit_naive_miss": 4,
+      "missed_chunk_categories": {
+        "?": 5,
+        "C": 2
+      },
+      "missed_details": [
+        {
+          "query_id": "EVAL-123",
+          "query_text": "Engine won't produce more than about 2300 RPM static. Plugs, mags, fuel flow all normal. Carb air fi",
+          "gt_chunk_id": "a63a381b-8533-466f-8ea2-71ad5014e8d3",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-094",
+          "query_text": "Plane won't climb like it used to. Full throttle in the pattern and best I can get is about 300 fpm.",
+          "gt_chunk_id": "a63a381b-8533-466f-8ea2-71ad5014e8d3",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-PROSE-093",
+          "query_text": "Got a new squawk come in; the bird's acting up. Need to figure out what's wrong and how to fix it.",
+          "gt_chunk_id": "dfe16434-0a0a-4c10-999b-5f2f8d472371",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-PROSE-037",
+          "query_text": "Pulled the old fan off the front. That thing was all chewed up, had a nasty split runnin' right down",
+          "gt_chunk_id": "f06e3e9e-da47-469c-9b1a-a417cdb5c6bc",
+          "cr_context_category": "C"
+        },
+        {
+          "query_id": "EVAL-PROSE-065",
+          "query_text": "Topcoat finish is uneven, and the paint feels a bit off after baking. Suspect issues with applicatio",
+          "gt_chunk_id": "1d246412-f654-4765-8814-13e27cd7f8fa",
+          "cr_context_category": "C"
+        },
+        {
+          "query_id": "EVAL-PROSE-098",
+          "query_text": "Just swapped out the main tail wheel bearing. The inner and outer races were severely galled and pit",
+          "gt_chunk_id": "1f19cd16-785f-49a9-b6d4-5fcb303fb7a5",
+          "cr_context_category": "?"
+        },
+        {
+          "query_id": "EVAL-PROSE-081",
+          "query_text": "Rudder feels a bit off-center, and I'm not getting full throw to the left. Seems like the control ca",
+          "gt_chunk_id": "1f19cd16-785f-49a9-b6d4-5fcb303fb7a5",
+          "cr_context_category": "?"
+        }
+      ]
+    }
+  }
+}

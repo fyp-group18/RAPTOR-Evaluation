@@ -1,0 +1,36 @@
+Redesigned Image-Bearing Node Query Evaluation Summary
+Date: 2026-05-19T09:48:14.197609+00:00
+Total redesigned queries: 45
+
+
+Seq 1 — AS-AMM-01-000:
+  original_raptor_text_only      n= 27  R@1=0.074  R@5=0.407  R@10=0.519  MRR=0.225  NDCG@10=0.281
+  full_context_aware             n= 27  R@1=0.074  R@5=0.111  R@10=0.148  MRR=0.106  NDCG@10=0.110
+    p(recall@1): 1.0000  delta=+0.000
+    p(recall@5): 0.0004  delta=-0.296
+    p(recall@10): 0.0001  delta=-0.370
+    p(mrr): 0.0139  delta=-0.119
+    p(ndcg@10): 0.0028  delta=-0.171
+
+Seq 1 — SC10000AMM:
+  original_raptor_text_only      n= 18  R@1=0.111  R@5=0.444  R@10=0.556  MRR=0.263  NDCG@10=0.318
+  full_context_aware             n= 18  R@1=0.056  R@5=0.167  R@10=0.333  MRR=0.112  NDCG@10=0.163
+    p(recall@1): 0.5532  delta=-0.056
+    p(recall@5): 0.0709  delta=-0.278
+    p(recall@10): 0.1904  delta=-0.222
+    p(mrr): 0.0690  delta=-0.151
+    p(ndcg@10): 0.0994  delta=-0.155
+
+Seq 3 — AS-AMM-01-000:
+  full_context_aware             n= 27  R@1=0.074  R@5=0.111  R@10=0.148  MRR=0.106  NDCG@10=0.110
+  no_table_parent_child          n= 27  R@1=0.111  R@5=0.148  R@10=0.259  MRR=0.138  NDCG@10=0.162
+  no_header_propagation          n= 27  R@1=0.074  R@5=0.111  R@10=0.185  MRR=0.103  NDCG@10=0.120
+  no_caption_folding             n= 27  R@1=0.185  R@5=0.296  R@10=0.481  MRR=0.264  NDCG@10=0.302
+  baseline_naive_chunking        n= 27  R@1=0.148  R@5=0.296  R@10=0.370  MRR=0.225  NDCG@10=0.256
+
+Seq 3 — SC10000AMM:
+  full_context_aware             n= 18  R@1=0.056  R@5=0.167  R@10=0.333  MRR=0.112  NDCG@10=0.163
+  no_table_parent_child          n= 18  R@1=0.000  R@5=0.056  R@10=0.056  MRR=0.036  NDCG@10=0.035
+  no_header_propagation          n= 18  R@1=0.111  R@5=0.111  R@10=0.167  MRR=0.125  NDCG@10=0.131
+  no_caption_folding             n= 18  R@1=0.111  R@5=0.111  R@10=0.167  MRR=0.122  NDCG@10=0.129
+  baseline_naive_chunking        n= 18  R@1=0.000  R@5=0.000  R@10=0.056  MRR=0.011  NDCG@10=0.019

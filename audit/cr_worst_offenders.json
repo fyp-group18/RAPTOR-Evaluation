@@ -1,0 +1,276 @@
+{
+  "AS-AMM-01-000": [
+    {
+      "chunk_idx": 194,
+      "chunk_id": "5f96a14a-b3a5-4140-be0d-a56767c7e53a",
+      "pages": [
+        103,
+        104,
+        105
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "CONTENTS",
+      "generated_context": "This chunk details aircraft shoring procedures, including description and maintenance practices, found within the \"LIFTING AND SHORING\" chapter (07-10) and precedes the \"LEVELING AND WEIGHING\" chapter (08).",
+      "original_text_preview": "Aircraft Maintenance Manual AS-AMM-01-000\n\n07-10  SHORING\n\n1. DESCRIPTION\n\nBefore carrying out any maintenance in the rear section of aircraft, shore ",
+      "category": "D",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 414,
+      "chunk_id": "7a11c518-cf3d-43a6-a4f2-07a3c9aab7c2",
+      "pages": [
+        305,
+        306
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "NOTE",
+      "generated_context": "This chunk details the recommended tools, materials, and personnel for the maintenance practices related to the removal of rudder control cables within the \"Rudder\" section of the \"Flight Controls\" chapter of the Aircraft Maintenance Manual.",
+      "original_text_preview": "Recommended tools, materials, persons and documentation:\n\nTab. 27-3 Recommended tools, materials, persons and documentation\n\nFLIGHT CONTROLS\n\nFLIGHT C",
+      "category": "D",
+      "justification": "D"
+    },
+    {
+      "chunk_idx": 799,
+      "chunk_id": "1376472e-3d73-4c3b-a553-87c5ba1b9f60",
+      "pages": [
+        718,
+        719,
+        720
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "CONTENTS",
+      "generated_context": "This chunk introduces Chapter 76, \"ENGINE CONTROLS,\" immediately following a",
+      "original_text_preview": "ENGINE COOLING\n\nWT9 Dynamic LSA / Club\n\nAEROS POOL\u00ae\n\nThis page is left blank intentionally\n\nENGINE\n\nWT9 Dynamic LSA / Club\n\nAS-AMM-01-000\n\n76  ENGINE ",
+      "category": "D",
+      "justification": "D"
+    },
+    {
+      "chunk_idx": 2,
+      "chunk_id": "7ce6091a-8108-4d5c-9bcc-a7c968698801",
+      "pages": [
+        3
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CONTENTS",
+      "generated_context": "This chunk is part of the table of contents for the Introduction chapter, specifically listing manufacturers and the general description of the manual.",
+      "original_text_preview": "|           | 1.                                                                                | AIRCRAFT MANUFACTURER...............................",
+      "category": "C",
+      "justification": "C"
+    },
+    {
+      "chunk_idx": 10,
+      "chunk_id": "8e1be82d-b255-499c-b18f-0af379e4be4f",
+      "pages": [
+        11,
+        12,
+        13
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "4. GENERAL SAFETY INFORMATION",
+      "generated_context": "This chunk describes the manual's structure, including chapter arrangement, numbering conventions for pages, figures, and tables, and definitions of warnings, cautions, and notes, as part of the \"MANUAL DESCRIPTION\" section.",
+      "original_text_preview": "Chapters are arranged in the following groups:\n\n\uf0b7 INTRODUCTION (Chapter 01)\n\n\uf0b7 AIRCRAFT (Chapters 04 to 12)\n\n\uf0b7 AIRFRAME SYSTEMS (Chapters 20 to 39)\n\n\uf0b7",
+      "category": "C",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 13,
+      "chunk_id": "659821fa-ea3b-4281-96a0-975b4246d7b6",
+      "pages": [
+        15,
+        16
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "Aircraft Maintenance Manual AS-AMM-01-000",
+      "generated_context": "This chunk is located in the \"INTRODUCTION\" section of the Aircraft",
+      "original_text_preview": "ADAHRS\n\nAir Data, Attitude and Heading Reference System\n\nADS-B\n\nAutomatic Dependent Surveillance - broadcast\n\nAOA\n\nAngle of Attack\n\nAMM\n\nAircraft Main",
+      "category": "C",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 26,
+      "chunk_id": "46dcc381-e54b-4786-be64-cbcd1340cbc4",
+      "pages": [
+        24
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "Aircraft Maintenance Manual AS-AMM-01-000",
+      "generated_context": "This chunk is part of the \"List",
+      "original_text_preview": "| 11-05      | 22. 05. 2017    | all           |\n| 11-06      | 22. 05. 2017    | all           |\n| 11-07      | 22. 05. 2017    | all           |\n| 1",
+      "category": "C",
+      "justification": "C"
+    },
+    {
+      "chunk_idx": 38,
+      "chunk_id": "6a95ea84-c8a2-455f-a917-e0def41d7f1e",
+      "pages": [
+        28
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "Aircraft Maintenance Manual AS-AMM-01-000",
+      "generated_context": "List of effective pages for Chapter 27, Flight Controls.",
+      "original_text_preview": "| 27-05      | 22. 05. 2017    | all           |\n| 27-06      | 22. 05. 2017    | all           |\n| 27-07      | 22. 05. 2017    | all           |\n| 2",
+      "category": "C",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 41,
+      "chunk_id": "11d36e78-f13c-4269-855b-640c35567416",
+      "pages": [
+        29
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "Aircraft Maintenance Manual AS-AMM-01-000",
+      "generated_context": "This chunk is part of the \"LIST OF EFFECTIVE PAGES\" within the \"INTRODUCTION\" section, detailing the revision status for pages 27-47 through 27-56, which cover \"FLIGHT CONTROLS\".",
+      "original_text_preview": "| 27-47      | 22. 05. 2017    | all           |\n| 27-48      | 22. 05. 2017    | all           |\n| 27-49      | 22. 05. 2017    | all           |\n| 2",
+      "category": "C",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 48,
+      "chunk_id": "2fb29640-cbf1-4324-b4d7-3fb12c0c814c",
+      "pages": [
+        32
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "Aircraft Maintenance Manual AS-AMM-01-000",
+      "generated_context": "This chunk serves as a page footer, identifying the aircraft type, document title, document number, and manufacturer.",
+      "original_text_preview": "WT9 Dynamic LSA / Club\n\nAircraft Maintenance Manual AS-AMM-01-000\n\nAEROS POOL\u00ae",
+      "category": "C",
+      "justification": ""
+    }
+  ],
+  "SC10000AMM": [
+    {
+      "chunk_idx": 64,
+      "chunk_id": "d457b126-3f45-4bc3-97de-d9377c6f5bf5",
+      "pages": [
+        41
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "8.7 General Torque Values",
+      "generated_context": "This chunk is a table row separator within the \"General Torque Values\" table (Table 5.2.1) in Section 5.2.9.7, which details recommended fastener torques.",
+      "original_text_preview": "|----------------------|------------------------------------------------------------------------------------------------------------------------------",
+      "category": "D",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 70,
+      "chunk_id": "3adcf341-d83c-461b-9d18-3a0976cbdb1f",
+      "pages": [
+        41
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "8.7 General Torque Values",
+      "generated_context": "Table 5.2.1,",
+      "original_text_preview": "| 10-32                | 38                                                                                                                           ",
+      "category": "D",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 103,
+      "chunk_id": "2630e707-0381-4499-b380-c7895d98d29e",
+      "pages": [
+        79,
+        80,
+        81
+      ],
+      "chunk_type": "prose",
+      "ground_truth_section": "CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL",
+      "generated_context": "This chunk is part of Section 5.4.13, \"Instruments and Avionics Systems,\" detailing various transponder, GPS, and FlightDEK options, and includes figures of different instrument panel configurations.",
+      "original_text_preview": "4.1.\n\nGarmin GTX 327 Transponder  ..................................................................................... 8\n\n4.2.\n\n4.3.\n\n4.4.\n\n4.5.\n\nGar",
+      "category": "D",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 143,
+      "chunk_id": "43eb415e-172e-4737-89ac-d74d91c0e0cf",
+      "pages": [
+        121
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL",
+      "generated_context": "This chunk is a segment of Table 6.1.1,",
+      "original_text_preview": "| Dynon Flight DEK-D180     |                             |                                                        | X                                ",
+      "category": "D",
+      "justification": "D"
+    },
+    {
+      "chunk_idx": 149,
+      "chunk_id": "15716b09-ffdb-4224-8d52-eccbd3c50ce2",
+      "pages": [
+        125
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CAUTION",
+      "generated_context": "This table, titled \"Table 6.2.1: Fuel, Oil, Brake Fluid, and Tire Pressures,\" is located within Section 6.2.3 \"Servicing of Fluids\" of Chapter 6 \"Line Maintenance, Repairs, and Alterations.\"",
+      "original_text_preview": "| Item                 | Specifications                     | Specifications                                                                      | Ca",
+      "category": "D",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 372,
+      "chunk_id": "3ab4219a-a0cc-4bbb-885f-f046fd05eeec",
+      "pages": [
+        325
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL",
+      "generated_context": "This chunk is part of the \"",
+      "original_text_preview": "CUB CRAFTERS, INC. CC11-100 MAINTENANCE MANUAL\n\n|   10 | Tailwheel Attachments: - Visual inspection for tightness and safety.       | X   |\n|------|--",
+      "category": "D",
+      "justification": ""
+    },
+    {
+      "chunk_idx": 25,
+      "chunk_id": "4117e0c5-12c4-420f-96e7-5c994b3dc55b",
+      "pages": [
+        7
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "TABLE OF CONTENTS",
+      "generated_context": "This chunk is",
+      "original_text_preview": "|     | 5.2.8                                     | RECOMMENDED                               | 6.2.1                                         | 100-HO",
+      "category": "C",
+      "justification": "C"
+    },
+    {
+      "chunk_idx": 31,
+      "chunk_id": "d7a01171-dfdb-4253-a848-6d4f54cfd941",
+      "pages": [
+        8
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CUB CRAFTERS, INC.",
+      "generated_context": "This chunk is a separator line within the main Table of Contents, indicating the continuation of the content listing.",
+      "original_text_preview": "|-----------------------------------------------------------------------------------------------------------------------------------------------------",
+      "category": "C",
+      "justification": "C"
+    },
+    {
+      "chunk_idx": 32,
+      "chunk_id": "7ee1c058-2e32-436b-a7a1-880d9dd8b9b0",
+      "pages": [
+        8
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CUB CRAFTERS, INC.",
+      "generated_context": "Table of Contents for Appendices,",
+      "original_text_preview": "| 6.A APPENDIX A 7 HEAVY MAINTENANCE, REPAIRS & ALTERATIONS 7.1 AUTHORIZATION TO PERFORM HEAVY MAINTENANCE, REPAIR, & ALTERATIONS 7.2 HEAVY MAINTENANC",
+      "category": "C",
+      "justification": "C"
+    },
+    {
+      "chunk_idx": 36,
+      "chunk_id": "70745960-2d8e-42ce-bdc6-4a0b3a2c73ea",
+      "pages": [
+        11
+      ],
+      "chunk_type": "table",
+      "ground_truth_section": "CC11-100 MAINTENANCE MANUAL",
+      "generated_context": "This chunk is a \"CHANGE OF ADDRESS/OWNERSHIP FORM\" found in Section 1.1, \"General,\" of the document, which provides contact information and forms for updating aircraft ownership or address details.",
+      "original_text_preview": "| CHANGE OF ADDRESS/OWNERSHIP FORM        | CHANGE OF ADDRESS/OWNERSHIP FORM        | CHANGE OF ADDRESS/OWNERSHIP FORM   | CHANGE OF ADDRESS/OWNERSHIP",
+      "category": "C",
+      "justification": ""
+    }
+  ]
+}

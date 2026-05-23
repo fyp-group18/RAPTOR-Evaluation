@@ -1,0 +1,17 @@
+====================================================================================================
+COMPARISON: Original (symptom-based) vs Redesigned (content-based) Image-Bearing Node Queries
+====================================================================================================
+
+-----------------------------------------------------------------------------------------------
+Document       | Query Version                  |   R@1 |   R@5 |  R@10 |   MRR | NDCG@10 |   n
+-----------------------------------------------------------------------------------------------
+AS-AMM-01-000  | Original (symptom-based)       | 0.000 | 0.037 | 0.037 | 0.011 |   0.016 |  27
+AS-AMM-01-000  | Redesigned (content-based)     | 0.074 | 0.111 | 0.148 | 0.106 |   0.110 |  27
+-----------------------------------------------------------------------------------------------
+SC10000AMM     | Original (symptom-based)       | 0.000 | 0.000 | 0.000 | 0.000 |   0.000 |  18
+SC10000AMM     | Redesigned (content-based)     | 0.056 | 0.167 | 0.333 | 0.112 |   0.163 |  18
+-----------------------------------------------------------------------------------------------
+
+Interpretation:
+  If redesigned queries score HIGHER → original queries had a query design problem
+  If redesigned queries score SIMILAR/LOWER → the issue is architectural (chunking fragmentation)

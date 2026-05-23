@@ -1,0 +1,200 @@
+{
+  "manual_name": "SC10000AMM",
+  "mapping": {
+    "93": 93,
+    "251": 251,
+    "258": 258,
+    "179": 179,
+    "184": 184,
+    "281": 281,
+    "140": 140,
+    "145": 145,
+    "171": 171,
+    "165": 165,
+    "216": 216,
+    "94": 94,
+    "152": 152,
+    "309": 309,
+    "240": 240,
+    "31": 31,
+    "101": 101,
+    "290": 290
+  },
+  "stats": {
+    "total_queries": 18,
+    "matched": 18,
+    "unmatched": 0,
+    "most_common_offset": 0,
+    "offset_is_constant": true,
+    "offset_distribution": {
+      "0": 18
+    },
+    "method_distribution": {
+      "figure_label_in_tree": 18
+    }
+  },
+  "details": [
+    {
+      "query_id": "EVAL-IMG-001",
+      "figure_label": "Figure 5.4.14.1",
+      "pdf_page": 93,
+      "docling_page": 93,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-002",
+      "figure_label": "Figure 6.3.15.1",
+      "pdf_page": 251,
+      "docling_page": 251,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-003",
+      "figure_label": "Figure 6.3.15.6",
+      "pdf_page": 258,
+      "docling_page": 258,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-004",
+      "figure_label": "Figure 6.3.7.1",
+      "pdf_page": 179,
+      "docling_page": 179,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-005",
+      "figure_label": "Figure 6.3.7.3",
+      "pdf_page": 184,
+      "docling_page": 184,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": false
+    },
+    {
+      "query_id": "EVAL-IMG-006",
+      "figure_label": "Figure 6.3.18.1",
+      "pdf_page": 281,
+      "docling_page": 281,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-007",
+      "figure_label": "Figure 6.3.4.1",
+      "pdf_page": 140,
+      "docling_page": 140,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-008",
+      "figure_label": "Figure 6.3.4.2",
+      "pdf_page": 145,
+      "docling_page": 145,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-009",
+      "figure_label": "Figure 6.3.6.7",
+      "pdf_page": 171,
+      "docling_page": 171,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-010",
+      "figure_label": "Figure 6.3.6.1",
+      "pdf_page": 165,
+      "docling_page": 165,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-011",
+      "figure_label": "Figure 6.3.10.3",
+      "pdf_page": 216,
+      "docling_page": 216,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-012",
+      "figure_label": "Figure 5.4.14.2",
+      "pdf_page": 94,
+      "docling_page": 94,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-013",
+      "figure_label": "Figure 6.3.5.2",
+      "pdf_page": 152,
+      "docling_page": 152,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-014",
+      "figure_label": "Figure 6.4.1",
+      "pdf_page": 309,
+      "docling_page": 309,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-015",
+      "figure_label": "Figure 6.3.12.2",
+      "pdf_page": 240,
+      "docling_page": 240,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-043",
+      "figure_label": "Figure 5.2.1",
+      "pdf_page": 31,
+      "docling_page": 31,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-044",
+      "figure_label": "Figure 5.4.14.10",
+      "pdf_page": 101,
+      "docling_page": 101,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    },
+    {
+      "query_id": "EVAL-IMG-045",
+      "figure_label": "Figure 6.3.20.1",
+      "pdf_page": 290,
+      "docling_page": 290,
+      "offset": 0,
+      "method": "figure_label_in_tree",
+      "has_images": true
+    }
+  ]
+}

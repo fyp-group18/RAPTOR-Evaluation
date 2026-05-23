@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Datasets (auto-downloaded, large)
+datasets/qasper_*/
+datasets/sstqa_*/
+datasets/mpdocvqa_cache/
+datasets/*.json
+
+# Embedding and tree caches (generated per-run)
+*_embeddings/
+*_trees/
+
+# Checkpoints (resumable run state)
+*.checkpoint.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Tree cache (local mirror of GCS tree artifacts)
+.tree-cache/
+
+# CR context generation checkpoints
+.cr-checkpoints/
+
+# Evaluation results (generated per-run)
+evaluation/results/
+
+# Credentials
+credentials.json
+
+# Env
+.env
+.env.local
+*.pkl

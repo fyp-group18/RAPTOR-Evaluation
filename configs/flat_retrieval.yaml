@@ -1,0 +1,7 @@
+# Flat leaf-only retrieval (pre-fix baseline)
+retrieval_mode: "flat"
+build_raptor_tree: false
+use_multimodal_embed: true
+use_table_parent_child: true
+use_retrieval_expansion: true
+description: "Flat leaf-only retrieval (level=0 only) — pre-collapsed-tree baseline for ablation"
