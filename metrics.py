@@ -63,6 +63,33 @@ def exact_match(prediction: str, ground_truth: str) -> float:
     return 1.0 if _normalize(prediction) == _normalize(ground_truth) else 0.0
 
 
+def rouge_l_score(prediction: str, ground_truth: str) -> float:
+    """ROUGE-L F1 based on longest common subsequence."""
+    pred_tokens = _normalize(prediction).split()
+    gt_tokens = _normalize(ground_truth).split()
+    if not gt_tokens and not pred_tokens:
+        return 1.0
+    if not gt_tokens or not pred_tokens:
+        return 0.0
+    m, n = len(gt_tokens), len(pred_tokens)
+    # DP table for LCS length
+    prev = [0] * (n + 1)
+    for i in range(1, m + 1):
+        curr = [0] * (n + 1)
+        for j in range(1, n + 1):
+            if gt_tokens[i - 1] == pred_tokens[j - 1]:
+                curr[j] = prev[j - 1] + 1
+            else:
+                curr[j] = max(prev[j], curr[j - 1])
+        prev = curr
+    lcs_len = prev[n]
+    if lcs_len == 0:
+        return 0.0
+    precision = lcs_len / n
+    recall = lcs_len / m
+    return 2 * precision * recall / (precision + recall)
+
+
 def score_with_multiple_gts(
     prediction: str,
     ground_truths: list[str],

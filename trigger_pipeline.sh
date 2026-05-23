@@ -11,7 +11,7 @@ set -e
 #
 # Fully automated: no manual intervention between phases
 # ==========================================
-PROJECT_ID="raptor-496700"
+PROJECT_ID="${GCP_PROJECT_ID:?Set GCP_PROJECT_ID}"
 REGION="asia-southeast1"
 GCS_BUCKET="raptor-assets"
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"

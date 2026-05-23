@@ -1,7 +1,0 @@
-index,prediction,ground_truths,anls,page_accuracy
-0,0.22,[|'|0|.|2|8|'|]
-1,"UNIVERSITY OF CALIFORNIA, SAN DIEGO","[|'|U|n|i|v|e|r|s|i|t|y| |o|f| |C|a|l|i|f|o|r|n|i|a|'|,| |'|u|n|i|v|e|r|s|i|t|y| |o|f| |c|a|l|i|f|o|r|n|i|a|'|,| |'|u|n|i|v|e|r|s|i|t|y| |o|f| |c|a|l|i|f|o|r|n|i|a|,| |s|a|n| |d|i|e|g|o|'|]"
-2,"San Diego, California","[|'|S|a|n| |D|i|e|g|o|'|,| |'|s|a|n| |d|i|e|g|o|'|]"
-3,Paul,[|'|P|a|u|l|'|]
-4,ITC Limited,"[|'|I|T|C| |L|i|m|i|t|e|d|'|,| |'|i|t|c| |l|i|m|i|t|e|d|'|]"
-AVERAGE,,,0.0,0.8

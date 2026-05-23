@@ -12,10 +12,15 @@ build/
 venv/
 env/
 
-# Datasets (auto-downloaded from HuggingFace, large)
+# Datasets (auto-downloaded, large)
 datasets/qasper_*/
+datasets/sstqa_*/
 datasets/mpdocvqa_cache/
 datasets/*.json
+
+# Embedding and tree caches (generated per-run)
+*_embeddings/
+*_trees/
 
 # Checkpoints (resumable run state)
 *.checkpoint.json

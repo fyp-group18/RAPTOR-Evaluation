@@ -1,5 +1,0 @@
-Config: QASPER with table parent-child chunking + retrieval expansion + RAPTOR tree
-Retrieval mode: collapsed
-Samples: 14
-f1: 0.5406
-exact_match: 0.2857

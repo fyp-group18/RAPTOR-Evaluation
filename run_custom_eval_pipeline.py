@@ -6,8 +6,8 @@ the correct tree cache_key.
 
 Usage:
     GOOGLE_APPLICATION_CREDENTIALS=./credentials.json \
-    GOOGLE_CLOUD_PROJECT=raptor-496700 \
-    PYTHONPATH="/Users/joanne/Desktop/PycharmProjects/hitl-dss-react/backend:." \
+    GOOGLE_CLOUD_PROJECT=<your-gcp-project> \
+    PYTHONPATH="/path/to/raptor/backend:." \
     python run_custom_eval_pipeline.py
 """
 

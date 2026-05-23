@@ -15,8 +15,8 @@ All output goes to results/image_queries_redesigned/.
 
 Usage:
     GOOGLE_APPLICATION_CREDENTIALS=./credentials.json \
-    GOOGLE_CLOUD_PROJECT=raptor-496700 \
-    PYTHONPATH="/Users/joanne/Desktop/PycharmProjects/hitl-dss-react/backend:." \
+    GOOGLE_CLOUD_PROJECT=<your-gcp-project> \
+    PYTHONPATH="/path/to/raptor/backend:." \
     python -m backend.evaluation.run_image_eval_redesigned
 """
 

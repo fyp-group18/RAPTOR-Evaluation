@@ -17,8 +17,8 @@ Writes to (all NEW files):
 
 Usage:
     GOOGLE_APPLICATION_CREDENTIALS=./credentials.json \
-    GOOGLE_CLOUD_PROJECT=raptor-496700 \
-    PYTHONPATH="/Users/joanne/Desktop/PycharmProjects/hitl-dss-react/backend:." \
+    GOOGLE_CLOUD_PROJECT=<your-gcp-project> \
+    PYTHONPATH="/path/to/raptor/backend:." \
     python -m backend.evaluation.redesign_image_queries
 """
 

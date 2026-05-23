@@ -1,0 +1,7 @@
+# SSTQA Row A: flat leaf-only retrieval
+retrieval_mode: "flat"
+build_raptor_tree: false
+use_table_parent_child: false
+use_retrieval_expansion: false
+use_multimodal_embed: false
+description: "SSTQA Row A: flat leaf-only retrieval — baseline without RAPTOR tree or table P-C"

@@ -1,0 +1,7 @@
+# SSTQA Row C: collapsed RAPTOR tree with table parent-child chunking
+retrieval_mode: "collapsed"
+build_raptor_tree: true
+use_table_parent_child: true
+use_retrieval_expansion: true
+use_multimodal_embed: false
+description: "SSTQA Row C: collapsed RAPTOR tree + table parent-child chunking + retrieval expansion"

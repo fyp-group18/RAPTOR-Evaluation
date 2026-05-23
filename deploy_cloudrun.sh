@@ -4,14 +4,14 @@ set -e
 # ==========================================
 # Configuration
 # ==========================================
-PROJECT_ID="raptor-496700"
-REGION="asia-southeast1"
+PROJECT_ID="${GCP_PROJECT_ID:?Set GCP_PROJECT_ID}"
+REGION="${GCP_REGION:-asia-southeast1}"
 REPO="raptor-eval-repo"
-SERVICE_ACCOUNT="raptor-backend@raptor-496700.iam.gserviceaccount.com"
+SERVICE_ACCOUNT="raptor-backend@${PROJECT_ID}.iam.gserviceaccount.com"
 EVAL_IMAGE="${REGION}-docker.pkg.dev/${PROJECT_ID}/${REPO}/raptor-eval-worker:latest"
 
-BACKEND_SRC="/Users/joanne/Desktop/PycharmProjects/hitl-dss-react/backend"
-EVAL_SRC="/Users/joanne/Desktop/PycharmProjects/RAPTOR-Evaluation"
+BACKEND_SRC="${RAPTOR_BACKEND_SRC:?Set RAPTOR_BACKEND_SRC to the raptor backend directory}"
+EVAL_SRC="$(cd "$(dirname "$0")" && pwd)"
 
 echo "=== RAPTOR Evaluation Cloud Run Deploy ==="
 echo "Project: ${PROJECT_ID}"

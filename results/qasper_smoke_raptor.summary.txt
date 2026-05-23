@@ -1,5 +1,0 @@
-Config: Full system with collapsed tree retrieval — summary nodes at all RAPTOR levels compete with leaf nodes via cosine similarity
-Retrieval mode: collapsed
-Samples: 14
-f1: 0.5236
-exact_match: 0.2857

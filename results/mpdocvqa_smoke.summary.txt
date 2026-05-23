@@ -1,5 +1,0 @@
-Config: MP-DocVQA Row A: OCR text, flat retrieval, no tree
-Retrieval mode: flat
-Samples: 5
-anls: 0.0000
-page_accuracy: 0.8000
